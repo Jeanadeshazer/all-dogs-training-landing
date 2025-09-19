@@ -97,7 +97,7 @@ export function Navigation() {
                 <span>Houston: (713) 909-7968</span>
               </div>
             </div>
-            <Button asChild className="bg-accent-foreground hover:bg-accent-foreground/70 text-white">
+            <Button asChild className="bg-accent hover:bg-accent/70 text-white">
               <Link href="/contact">Get Started</Link>
             </Button>
           </div>
@@ -136,7 +136,7 @@ export function Navigation() {
                   <Phone className="h-4 w-4" />
                   <span>Houston: (713) 909-7968</span>
                 </div>
-                <Button asChild className="w-full bg-accent-foreground hover:bg-accent-foreground/70 text-white mt-4">
+                <Button asChild className="w-full bg-accent hover:bg-accent/70 text-white mt-4">
                   <Link href="/contact">Get Started</Link>
                 </Button>
               </div>

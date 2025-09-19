@@ -59,7 +59,7 @@ export function HeroSection() {
             <Button
               asChild
               size="lg"
-              className="bg-gray-400 hover:bg-accent/90 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group hover:scale-105"
+              className="bg-accent hover:bg-accent/90 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group hover:scale-105"
             >
               <Link href="/contact">
                 Get Free Consultation

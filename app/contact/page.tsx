@@ -17,25 +17,25 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   const contactInfo = [
     {
-      icon: <Phone className="h-6 w-6 text-zinc-300" />,
+      icon: <Phone className="h-6 w-6 text-accent" />,
       title: "Houston Location",
       details: ["(713) 909-7968", "Available 7 days a week"],
       action: "tel:7139097968",
     },
     {
-      icon: <Phone className="h-6 w-6 text-zinc-300" />,
+      icon: <Phone className="h-6 w-6 text-accent" />,
       title: "Austin Location",
       details: ["(512) 648-4510", "Available 7 days a week"],
       action: "tel:5126484510",
     },
     {
-      icon: <Mail className="h-6 w-6 text-zinc-300" />,
+      icon: <Mail className="h-6 w-6 text-accent" />,
       title: "Email Us",
       details: ["info@alldogstrainingco.com", "Response within 24 hours"],
       action: "mailto:info@alldogstrainingco.com",
     },
     {
-      icon: <Clock className="h-6 w-6 text-zinc-300" />,
+      icon: <Clock className="h-6 w-6 text-accent" />,
       title: "Business Hours",
       details: ["Monday - Sunday", "7:00 AM - 8:00 PM"],
       action: null,
@@ -67,7 +67,7 @@ export default function ContactPage() {
               Contact Us
             </Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">
-              Ready to Transform Your <span className="text-zinc-300">Dog's Behavior?</span>
+              Ready to Transform Your <span className="text-accent">Dog's Behavior?</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground text-balance leading-relaxed">
               Schedule your free consultation today and take the first step toward a better relationship with your dog.
