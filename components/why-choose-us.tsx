@@ -37,10 +37,10 @@ export function WhyChooseUs() {
           <Badge variant="secondary" className="mb-4 text-accent-foreground bg-accent">
             Why Choose Us
           </Badge>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-balance">We do what they can't</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-balance">Because your relationship matters.</h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto text-balance leading-relaxed">
-            Aren't seeing training results from those big box franchises? Annoyed by the lack of support? Still want to
-            be able to take your dog places without being embarrassed?
+            We’re here for you with personalized guidance, ongoing support, and a compassionate approach that big-box programs can’t match. 
+            You and your dog deserve training that feels like teamwork.
           </p>
         </ScrollReveal>
 
@@ -95,7 +95,7 @@ export function WhyChooseUs() {
             We have decades of unparalleled professional training and coaching experience with pets and their owners,
             and countless success stories.
           </p>
-          <p className="text-xl font-bold text-accent mt-6">
+          <p className="text-xl font-bold text-gray-500 mt-6">
             Let us train you how to train your dog for 100% lasting success!
           </p>
         </ScrollReveal>

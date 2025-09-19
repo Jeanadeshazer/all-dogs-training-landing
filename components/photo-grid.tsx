@@ -31,10 +31,9 @@ export function PhotoGrid() {
     <section className="py-10 bg-background">
       <div className="container mx-auto px-4">
         <ScrollReveal className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-balance">See the Results</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-balance">See the difference in your relationship.</h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto text-balance leading-relaxed">
-            From basic obedience to advanced off-leash adventures, our training transforms dogs and strengthens the bond
-            with their families.
+            From everyday manners to exciting off-leash adventures, our training builds trust, deepens your bond, and makes every moment together more enjoyable.
           </p>
         </ScrollReveal>
 

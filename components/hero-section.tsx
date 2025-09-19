@@ -21,18 +21,18 @@ export function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center text-white">
+      <div className="relative z-10 container mx-auto px-4 text-center text-white pt-20 md:pt-0">
         <div className="max-w-4xl mx-auto animate-fade-in-up">
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance leading-tight animate-fade-in-up">
-            Does your dog <span className="text-accent">ignore you?</span>
+            Wish your dog <span className="text-accent">listened better?</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl lg:text-3xl mb-8 text-balance text-white/90 leading-relaxed animate-fade-in-up">
-            Are you tired of leash pulling, jumping, reactivity?
+            Imagine a deeper bond with your best friend.
             <br />
-            <strong className="text-white">Our proven programs can train any dog!</strong>
+            <strong className="text-white">Our gentle programs help you and your dog thrive—together.</strong>
           </p>
 
           {/* Badge */}

@@ -10,7 +10,7 @@ export function ServicesPreview() {
   const services = [
     {
       title: "Puppy Training",
-      description: "Start your puppy off right with foundational training and socialization.",
+      description: "Build a foundation of trust, learning, and social confidence.",
       image: "/images/puppy-outdoor.jpeg",
       features: ["Basic Commands", "House Training", "Socialization", "Bite Inhibition"],
       icon: <Target className="h-6 w-6" />,
@@ -18,7 +18,7 @@ export function ServicesPreview() {
     },
     {
       title: "Obedience Training",
-      description: "Comprehensive training for dogs of all ages to master essential commands.",
+      description: "Strengthen communication and enjoy everyday life together.",
       image: "/images/puppy-bench.jpeg",
       features: ["Sit, Stay, Come", "Leash Training", "Impulse Control", "Focus Training"],
       icon: <Users className="h-6 w-6" />,
@@ -26,7 +26,7 @@ export function ServicesPreview() {
     },
     {
       title: "Behavioral Modification",
-      description: "Address specific behavioral issues with customized training solutions.",
+      description: "Compassionately address challenges and discover new ways to thrive as a team.",
       image: "/images/running-dog.jpeg",
       features: ["Aggression Issues", "Anxiety & Fear", "Excessive Barking", "Destructive Behavior"],
       icon: <Clock className="h-6 w-6" />,
@@ -43,11 +43,11 @@ export function ServicesPreview() {
             Our Programs
           </Badge>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-balance">
-            Professional Dog Training Programs
+            Programs designed for partnership.
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto text-balance leading-relaxed">
-            Customized training solutions for every dog and every behavioral challenge. Our proven methods work for dogs
-            of all ages, breeds, and temperaments.
+            Every dog, every family, every journey is unique. Our training programs celebrate
+            that—helping you nurture a happier, more connected relationship with your dog.
           </p>
         </ScrollReveal>
 
@@ -174,7 +174,7 @@ export function ServicesPreview() {
           <Button
             asChild
             size="lg"
-            className="bg-accent hover:bg-accent/90 px-8 py-4 text-lg font-semibold hover:scale-105 transition-all duration-300"
+            className="bg-gray-500 hover:bg-gray-300/90 px-8 py-4 text-lg font-semibold hover:scale-105 transition-all duration-300"
           >
             <Link href="/programs">
               View All Programs
