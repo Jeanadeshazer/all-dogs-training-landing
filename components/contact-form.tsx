@@ -265,7 +265,7 @@ export function ContactForm() {
           </div>
 
           {/* Submit Button */}
-          <Button type="submit" size="lg" className="w-full bg-accent hover:bg-accent/90">
+          <Button type="submit" size="lg" className="w-full bg-zinc-300 hover:bg-zinc-300/90">
             <Send className="mr-2 h-5 w-5" />
             Schedule Free Consultation
           </Button>
