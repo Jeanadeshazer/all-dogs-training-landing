@@ -54,7 +54,7 @@ export function Navigation() {
   return (
     <nav
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95 md:bg-transparent",
         isScrolled ? "bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-200" : "bg-transparent",
       )}
     >
@@ -97,7 +97,7 @@ export function Navigation() {
                 <span>Houston: (713) 909-7968</span>
               </div>
             </div>
-            <Button asChild className="bg-accent hover:bg-accent/90 text-white">
+            <Button asChild className="bg-accent-foreground hover:bg-accent-foreground/70 text-white">
               <Link href="/contact">Get Started</Link>
             </Button>
           </div>
@@ -136,7 +136,7 @@ export function Navigation() {
                   <Phone className="h-4 w-4" />
                   <span>Houston: (713) 909-7968</span>
                 </div>
-                <Button asChild className="w-full bg-accent hover:bg-accent/90 text-white mt-4">
+                <Button asChild className="w-full bg-accent-foreground hover:bg-accent-foreground/70 text-white mt-4">
                   <Link href="/contact">Get Started</Link>
                 </Button>
               </div>

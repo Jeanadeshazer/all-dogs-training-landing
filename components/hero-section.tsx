@@ -7,7 +7,7 @@ import { AnimatedCounter } from "@/components/animated-counter"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-30 md:pt-0">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -59,7 +59,7 @@ export function HeroSection() {
             <Button
               asChild
               size="lg"
-              className="bg-accent hover:bg-accent/90 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group hover:scale-105"
+              className="bg-gray-400 hover:bg-accent/90 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group hover:scale-105"
             >
               <Link href="/contact">
                 Get Free Consultation
