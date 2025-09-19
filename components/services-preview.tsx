@@ -174,7 +174,7 @@ export function ServicesPreview() {
           <Button
             asChild
             size="lg"
-            className="bg-accent hover:bg-accent/90 px-8 py-4 text-lg font-semibold hover:scale-105 transition-all duration-300"
+            className="bg-gray-500 hover:bg-gray-300/90 px-8 py-4 text-lg font-semibold hover:scale-105 transition-all duration-300"
           >
             <Link href="/programs">
               View All Programs
