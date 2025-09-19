@@ -141,7 +141,7 @@ export default function ProgramsPage() {
               Board and Train Programs
             </Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">
-              Professional Dog Training <span className="text-zinc-300">Programs</span>
+              Professional Dog Training <span className="text-accent">Programs</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground text-balance leading-relaxed mb-8">
               Leash pulling? Lack of obedience? Behavior issues? Social issues? Reactivity? We can help with that! All
@@ -150,19 +150,19 @@ export default function ProgramsPage() {
             </p>
 
             <div className="bg-accent/10 rounded-2xl p-6 mb-8">
-              <h3 className="text-xl font-bold mb-4 text-zinc-300">Need Help Now?</h3>
+              <h3 className="text-xl font-bold mb-4 text-accent">Need Help Now?</h3>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <div className="flex items-center space-x-2">
-                  <Phone className="h-5 w-5 text-zinc-300" />
+                  <Phone className="h-5 w-5 text-accent" />
                   <span className="font-semibold">Austin:</span>
-                  <a href="tel:5126484510" className="text-lg font-bold text-zinc-300 hover:text-zinc-300/80">
+                  <a href="tel:5126484510" className="text-lg font-bold text-accent hover:text-accent/80">
                     (512) 648-4510
                   </a>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Phone className="h-5 w-5 text-zinc-300" />
+                  <Phone className="h-5 w-5 text-accent" />
                   <span className="font-semibold">Houston:</span>
-                  <a href="tel:7139097968" className="text-lg font-bold text-zinc-300 hover:text-zinc-300/80">
+                  <a href="tel:7139097968" className="text-lg font-bold text-accent hover:text-accent/80">
                     (713) 909-7968
                   </a>
                 </div>
@@ -216,7 +216,7 @@ export default function ProgramsPage() {
                   <Card className="border-none shadow-lg">
                     <CardHeader>
                       <div className="flex items-center justify-between mb-2">
-                        <Badge variant="outline" className="text-zinc-300 border-zinc-300">
+                        <Badge variant="outline" className="text-accent border-accent">
                           {program.duration}
                         </Badge>
                         <div className="flex items-center space-x-1">
@@ -226,7 +226,7 @@ export default function ProgramsPage() {
                         </div>
                       </div>
                       <CardTitle className="text-3xl font-bold">{program.title}</CardTitle>
-                      <p className="text-xl text-zinc-300 font-semibold">{program.subtitle}</p>
+                      <p className="text-xl text-accent font-semibold">{program.subtitle}</p>
                       <p className="text-muted-foreground leading-relaxed">{program.description}</p>
                     </CardHeader>
 
@@ -237,7 +237,7 @@ export default function ProgramsPage() {
                         <div className="grid grid-cols-1 gap-2">
                           {program.features.map((feature, featureIndex) => (
                             <div key={featureIndex} className="flex items-start space-x-2">
-                              <CheckCircle className="h-4 w-4 text-zinc-300 flex-shrink-0 mt-0.5" />
+                              <CheckCircle className="h-4 w-4 text-accent flex-shrink-0 mt-0.5" />
                               <span className="text-sm">{feature}</span>
                             </div>
                           ))}
@@ -247,10 +247,10 @@ export default function ProgramsPage() {
                       {/* Price and CTA */}
                       <div className="flex items-center justify-between">
                         <div>
-                          <div className="text-3xl font-bold text-zinc-300">{program.price}</div>
+                          <div className="text-3xl font-bold text-accent">{program.price}</div>
                           <div className="text-sm text-muted-foreground">{program.includes}</div>
                         </div>
-                        <Button asChild className="bg-zinc-300 hover:bg-zinc-300/90">
+                        <Button asChild className="bg-accent hover:bg-accent/90">
                           <Link href="/contact">
                             Get Started
                             <ArrowRight className="ml-2 h-4 w-4" />
@@ -281,7 +281,7 @@ export default function ProgramsPage() {
               charge of your dogs progress!
             </p>
             <div className="mt-8 p-6 bg-accent/10 rounded-2xl inline-block">
-              <div className="text-3xl font-bold text-zinc-300">$750</div>
+              <div className="text-3xl font-bold text-accent">$750</div>
               <div className="text-lg font-semibold">5 Week Lesson Program</div>
               <div className="text-sm text-muted-foreground">
                 Each of our Board and Trains is followed by enrollment in the appropriate Level lesson program, at no
@@ -316,7 +316,7 @@ export default function ProgramsPage() {
 
                 <CardHeader>
                   <CardTitle className="text-2xl font-bold">{program.title}</CardTitle>
-                  <p className="text-lg text-zinc-300 font-semibold">{program.subtitle}</p>
+                  <p className="text-lg text-accent font-semibold">{program.subtitle}</p>
                   <p className="text-muted-foreground leading-relaxed">{program.description}</p>
                 </CardHeader>
 
@@ -324,7 +324,7 @@ export default function ProgramsPage() {
                   <div className="space-y-3">
                     {program.features.map((feature, featureIndex) => (
                       <div key={featureIndex} className="flex items-start space-x-2">
-                        <CheckCircle className="h-4 w-4 text-zinc-300 flex-shrink-0 mt-0.5" />
+                        <CheckCircle className="h-4 w-4 text-accent flex-shrink-0 mt-0.5" />
                         <span className="text-sm">{feature}</span>
                       </div>
                     ))}
@@ -335,7 +335,7 @@ export default function ProgramsPage() {
           </div>
 
           <div className="text-center mt-12">
-            <Button asChild size="lg" className="bg-zinc-300 hover:bg-zinc-300/90">
+            <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
               <Link href="/contact">
                 Schedule Your Complimentary Consultation
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -393,12 +393,12 @@ export default function ProgramsPage() {
                   "Beach etiquette and environmental awareness",
                 ].map((feature, index) => (
                   <div key={index} className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-zinc-300 flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
                     <span>{feature}</span>
                   </div>
                 ))}
               </div>
-              <Button asChild className="bg-zinc-300 hover:bg-zinc-300/90">
+              <Button asChild className="bg-accent hover:bg-accent/90">
                 <Link href="/contact">
                   Join Beach Adventures
                   <ArrowRight className="ml-2 h-4 w-4" />
@@ -433,12 +433,12 @@ export default function ProgramsPage() {
                   "Leave No Trace outdoor ethics",
                 ].map((feature, index) => (
                   <div key={index} className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-zinc-300 flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
                     <span>{feature}</span>
                   </div>
                 ))}
               </div>
-              <Button asChild className="bg-zinc-300 hover:bg-zinc-300/90">
+              <Button asChild className="bg-accent hover:bg-accent/90">
                 <Link href="/contact">
                   Explore Trail Training
                   <ArrowRight className="ml-2 h-4 w-4" />
@@ -543,7 +543,7 @@ export default function ProgramsPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">{/* Additional Services content here */}</div>
 
           <div className="text-center">
-            <Button asChild size="lg" className="bg-zinc-300 hover:bg-zinc-300/90">
+            <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
               <Link href="/contact">
                 Discuss Custom Training
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -563,13 +563,13 @@ export default function ProgramsPage() {
                 Do you want the ultimate off-leash training experience? Do you wish you could take your dog anywhere and
                 have reliable control with all commands on-leash AND off-leash?
               </p>
-              <Button asChild size="lg" className="bg-zinc-300 hover:bg-zinc-300/90 mb-6">
+              <Button asChild size="lg" className="bg-accent hover:bg-accent/90 mb-6">
                 <Link href="/off-leash-raise-and-train">
                   Learn About Our Off-Leash Raise and Train Program
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <p className="text-lg font-semibold text-zinc-300">
+              <p className="text-lg font-semibold text-accent">
                 Every dog is a good dog, let us help make your dog a great dog!
               </p>
             </CardContent>
@@ -589,7 +589,7 @@ export default function ProgramsPage() {
                 reliability. E-Collar training for added reliability, distance work, and impeccable communication.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                <Button asChild size="lg" className="bg-zinc-300 hover:bg-zinc-300/90">
+                <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
                   <Link href="/contact">
                     Schedule Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" />
@@ -599,7 +599,7 @@ export default function ProgramsPage() {
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a
                   href="tel:5126484510"
-                  className="flex items-center justify-center space-x-2 text-zinc-300 hover:text-zinc-300/80 transition-colors"
+                  className="flex items-center justify-center space-x-2 text-accent hover:text-accent/80 transition-colors"
                 >
                   <Phone className="h-5 w-5" />
                   <span className="font-semibold">Austin:</span>
@@ -607,7 +607,7 @@ export default function ProgramsPage() {
                 </a>
                 <a
                   href="tel:7139097968"
-                  className="flex items-center justify-center space-x-2 text-zinc-300 hover:text-zinc-300/80 transition-colors"
+                  className="flex items-center justify-center space-x-2 text-accent hover:text-accent/80 transition-colors"
                 >
                   <Phone className="h-5 w-5" />
                   <span className="font-semibold">Houston:</span>

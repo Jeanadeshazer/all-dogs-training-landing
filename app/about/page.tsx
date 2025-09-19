@@ -19,24 +19,24 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   const values = [
     {
-      icon: <Users className="h-8 w-8 text-zinc-300" />,
+      icon: <Users className="h-8 w-8 text-accent" />,
       title: "Locally Owned & Operated",
       description:
         "Unlike big box franchises, we're founded by actual dog trainers who live and work in your community.",
     },
     {
-      icon: <Award className="h-8 w-8 text-zinc-300" />,
+      icon: <Award className="h-8 w-8 text-accent" />,
       title: "Decades of Experience",
       description:
         "Our trainers have unparalleled professional training and coaching experience with pets and their owners.",
     },
     {
-      icon: <Heart className="h-8 w-8 text-zinc-300" />,
+      icon: <Heart className="h-8 w-8 text-accent" />,
       title: "Genuine Care",
       description: "We truly care about your success and building a lasting relationship between you and your dog.",
     },
     {
-      icon: <Target className="h-8 w-8 text-zinc-300" />,
+      icon: <Target className="h-8 w-8 text-accent" />,
       title: "Proven Results",
       description:
         "Countless success stories from satisfied customers across Houston and Austin prove our methods work.",
@@ -62,7 +62,7 @@ export default function AboutPage() {
               About All Dogs Training Co
             </Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">
-              We're Not Your Typical <span className="text-zinc-300">Dog Training</span> Company
+              We're Not Your Typical <span className="text-accent">Dog Training</span> Company
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground text-balance leading-relaxed">
               Founded by actual dog trainers, not corporate executives. We're locally owned, community-focused, and
@@ -193,7 +193,7 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto">
             <Card className="border-accent/20 bg-accent/5">
               <CardContent className="p-8 md:p-12 text-center">
-                <CheckCircle className="h-16 w-16 text-zinc-300 mx-auto mb-6" />
+                <CheckCircle className="h-16 w-16 text-accent mx-auto mb-6" />
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Promise to You</h2>
                 <p className="text-xl text-muted-foreground mb-8 text-balance leading-relaxed">
                   We don't just train your dog - we train YOU how to train your dog. This ensures lasting results that
@@ -201,7 +201,7 @@ export default function AboutPage() {
                   achieve the relationship with your dog that you've always wanted.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button asChild size="lg" className="bg-gray-500 hover:bg-gray-300/90">
+                  <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
                     <Link href="/contact">
                       Start Your Journey
                       <ArrowRight className="ml-2 h-5 w-5" />
