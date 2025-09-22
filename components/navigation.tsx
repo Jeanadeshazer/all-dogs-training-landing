@@ -92,10 +92,6 @@ export function Navigation() {
                 <Phone className="h-4 w-4" />
                 <span>Austin: (512) 648-4510</span>
               </div>
-              <div className={cn("flex items-center space-x-1", getPhoneColor())}>
-                <Phone className="h-4 w-4" />
-                <span>Houston: (713) 909-7968</span>
-              </div>
             </div>
             <Button asChild className="bg-accent hover:bg-accent/70 text-white">
               <Link href="/contact">Get Started</Link>
@@ -131,10 +127,6 @@ export function Navigation() {
                 <div className="flex items-center space-x-1 text-sm text-gray-600">
                   <Phone className="h-4 w-4" />
                   <span>Austin: (512) 648-4510</span>
-                </div>
-                <div className="flex items-center space-x-1 text-sm text-gray-600">
-                  <Phone className="h-4 w-4" />
-                  <span>Houston: (713) 909-7968</span>
                 </div>
                 <Button asChild className="w-full bg-accent hover:bg-accent/70 text-white mt-4">
                   <Link href="/contact">Get Started</Link>

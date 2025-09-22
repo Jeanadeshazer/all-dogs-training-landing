@@ -159,13 +159,6 @@ export default function ProgramsPage() {
                     (512) 648-4510
                   </a>
                 </div>
-                <div className="flex items-center space-x-2">
-                  <Phone className="h-5 w-5 text-accent" />
-                  <span className="font-semibold">Houston:</span>
-                  <a href="tel:7139097968" className="text-lg font-bold text-accent hover:text-accent/80">
-                    (713) 909-7968
-                  </a>
-                </div>
               </div>
               <p className="text-sm text-muted-foreground mt-2">
                 Call/Text or fill out the form below to get in touch with us ASAP
