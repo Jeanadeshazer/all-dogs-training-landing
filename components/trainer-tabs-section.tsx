@@ -50,7 +50,7 @@ export default function trainersTabsSection(){
           {trainers.map((member, index) => (
             <TabsContent key={index} value={member.name}>
               <Card className="p-4">
-                <CardContent className="flex flex-col md:flex-row gap-6 h-auto lg:h-[48vh]">
+                <CardContent className="flex flex-col md:flex-row gap-6 h-auto lg:h-[65vh]">
                   {/* Left: Image */}
                   <div className="w-full md:w-1/3">
                     <img
