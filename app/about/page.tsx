@@ -196,9 +196,9 @@ export default function AboutPage() {
                 <CheckCircle className="h-16 w-16 text-accent mx-auto mb-6" />
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Promise to You</h2>
                 <p className="text-xl text-muted-foreground mb-8 text-balance leading-relaxed">
-                  We don't just train your dog - we train YOU how to train your dog. This ensures lasting results that
-                  continue long after our sessions end. We're committed to your success and will work with you until you
-                  achieve the relationship with your dog that you've always wanted.
+                  We don't just train your dog - we train YOU how to train your dog. This ensures a lasting and stable relationship 
+                  with your dog that continues long after our sessions end. We're committed to your success 
+                  and will work with you until you achieve the relationship with your dog that you've always wanted.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
