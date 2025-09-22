@@ -22,7 +22,7 @@ export default function AboutPage() {
       icon: <Users className="h-8 w-8 text-accent" />,
       title: "Locally Owned & Operated",
       description:
-        "Unlike big box franchises, we're founded by actual dog trainers who live and work in your community.",
+        "Community-focused, and committed to your success. Relationship based training for a changed state of mind.",
     },
     {
       icon: <Award className="h-8 w-8 text-accent" />,

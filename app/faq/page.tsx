@@ -27,9 +27,9 @@ export default function FAQPage() {
             "The duration depends on your dog's age, current behavior, and the specific issues being addressed. Puppy training typically takes 6-8 weeks, while adult obedience training takes 8-12 weeks. Behavioral modification programs vary based on the complexity of the issues. We'll provide a realistic timeline during your free consultation.",
         },
         {
-          question: "What makes All Dogs Training Co different from other trainers?",
+          question: "What makes All Dogs Training Co different?",
           answer:
-            "We're locally owned and operated by actual dog trainers, not a corporate franchise. We have decades of experience and focus on training YOU how to train your dog, ensuring lasting results. Our small class sizes and personalized approach set us apart from big box training companies.",
+            "We are not a franchise with cookie cutter methods that don't work. We customize training to each individual dog and owner, and focus on creating a relationship based on connection and communication. Our training process is made to transfer easily to the owner, and we provide multiple follow up lessons to ensure lasting success.",
         },
         {
           question: "Do you offer a guarantee?",
@@ -39,7 +39,7 @@ export default function FAQPage() {
         {
           question: "What training methods do you use?",
           answer:
-            "We use positive reinforcement-based training methods that are both effective and humane. Our approach focuses on building a strong relationship between you and your dog while addressing behavioral issues in a way that's enjoyable for both of you.",
+            "We use whatever works on each dog! Dogs are like people, in that they are not one size fits all. We use various balanced methods including food, toys, play, e-collars, and all 4 quadrants of training (positive/negative reinforcement, positive/negative punishment).",
         },
       ],
     },
@@ -54,7 +54,7 @@ export default function FAQPage() {
         {
           question: "Can you help with aggressive dogs?",
           answer:
-            "Yes, we specialize in behavioral modification including aggression issues. However, we require an initial assessment to determine the best approach for your dog's specific situation. Safety is our top priority, and we'll create a customized plan to address aggressive behaviors effectively.",
+            "Private sessions are included in all our board and train programs, as well as our day school program. The path to the best, and fastest, results is when we get the dog where he needs to be first, and then transfer that to the owners through lessons.",
         },
         {
           question: "Do you offer private training sessions?",
@@ -64,7 +64,7 @@ export default function FAQPage() {
         {
           question: "What if my dog doesn't get along with other dogs?",
           answer:
-            "We can work with reactive or dog-aggressive dogs through our behavioral modification program. We'll start with private sessions to address the underlying issues before gradually introducing controlled socialization if appropriate for your dog.",
+            "No problem! That does not effect whether or not we can take them into our programs. They will not be allowed freedom with other dogs, and everyone's safety is our number one priority.",
         },
       ],
     },
@@ -74,17 +74,22 @@ export default function FAQPage() {
         {
           question: "How much does training cost?",
           answer:
-            "Our puppy training starts at $299, adult obedience training starts at $399, and behavioral modification starts at $599. We also offer payment plans to make training affordable for every family. The exact cost depends on your dog's specific needs, which we'll discuss during your free consultation.",
+            "The exact cost depends on which program fits your needs. Our Day School packages start at $750 and our Board and Trains start at $2,000 and include all equipment and lessons.",
         },
         {
-          question: "Do you serve areas outside Houston and Austin?",
+          question: "Where are you located?",
           answer:
-            "Yes! We serve the greater Houston and Austin metropolitan areas, including Katy, Sugar Land, The Woodlands, Pearland, Round Rock, Cedar Park, and surrounding communities. Contact us to confirm we serve your specific area.",
+            "Our Texas training locations are in Austin and Houston. We serve all surrounding areas as well.\n\nOur Georgia training locations are in Villa Rica and Fayetteville. We serve all surrounding areas including Atlanta metro area.",
         },
         {
           question: "What should I bring to the first session?",
           answer:
             "Bring your dog on a leash, some high-value treats your dog loves, any training equipment you currently use, and a list of specific behaviors you'd like to address. We'll provide additional guidance when you schedule your consultation.",
+        },
+        {
+          question: "What should I bring with my dog?",
+          answer: 
+            "Bring your dog on a leash, enough food for his stay, and any meds he needs while with us. We provide everything else!"
         },
         {
           question: "Can I start training if my dog isn't fully vaccinated?",
@@ -116,6 +121,11 @@ export default function FAQPage() {
           answer:
             "We provide lifetime support for all our clients! You can contact us anytime with questions or if you need refresher sessions. We also offer advanced training programs and ongoing group classes to continue your dog's education.",
         },
+        {
+          question: "What should I expect while my dog is gone?",
+          answer:
+            "24 hours after drop off, you'll receive a picture and a quick update on how your pup is settling in. We'll spend the next few days bonding with your dog and starting the training foundation. By the end of the first week you'll receive your first video progress report. We spend the next week addressing problem behaviors, adding distractions, proofing behaviors, and continue proper e-collar conditioning as a reinforcer. You'll receive 1-2 more video progress reports during this time. If your dog is staying with you also. Following that, we'll start proofing off-leash work and continue proofing obedience with more difficult distractions. You'll receive 1-2 more videos during this time."
+        }
       ],
     },
   ]

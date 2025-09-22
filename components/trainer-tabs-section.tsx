@@ -17,19 +17,19 @@ export default function trainersTabsSection(){
             name: "Heather Mozingo",
             role: "Owner and Training Director",
             bio: "Heather's background includes training top level show horses, managing high volume dog kennels, and 10+ years in the dog training field. Along with the pet dog training business, Heather is a national level competitor in the sport of IGP (Schutzhund) with her Cane Corso and German Shepherd. There are less than 100 Corsos in the world who have achieved an IGP title, and Heather's Corso, Vinny, has achieved a BH, FH, IGP I, IGP II, IGP lll and placed first at the 2023 and 2024 Cane Corso IGP National Championship...and is Heather's soulmate. Her love of dogs is not just a job, or a hobby, but a way of life.",
-            image: "/Heather.jpg"
+            image: "/Heather-Vinny.jpg"
         },
         {
             name: "Matt Bourgoin",
             role: "Head Trainer",
             bio: "The true dog whisperer. Matt has 20+ years experience training dogs in many areas, is a graduate of NePoPo Gold School, NePoPo Gold Premium, and has graduated from a 6 month Master Trainer course at Tarheel Canine. He has extensive knowledge of canine behavior, rehabilitation work, psychology, and specializes in training dogs through shaping, self discovery and relationship. Matt takes great pride in training dogs, along with owners, and applying all his experience and knowledge to create lifelong results. Matt's personal dogs include a Malinois and a German Shepherd which he competes with in various protection sports.",
-            image: "/Matt.jpg"
+            image: "/Matt-Bourgoin.png"
         },
         {
             name: "Kayla Tong",
             role: "Trainer-Austin Location",
             bio: "Kaylah has over 8 years experience helping owners with their dogs, as well as being a graduate of Starmark Academy. She is a dedicated and knowledgeable dog trainer who brings a versatile, results driven approach to every program. Kaylah has a deep understanding of canine behavior, along with a wide range of proven techniques and problem solving strategies. Kaylah has a background in positive reinforcement, as well as balanced training, and her methods focus on clear communication, consistency, and structure.",
-            image: "/placeholder-logo.png"
+            image: "/Kaylah-Tong.png"
         }
     ]
     return (
@@ -50,7 +50,7 @@ export default function trainersTabsSection(){
           {trainers.map((member, index) => (
             <TabsContent key={index} value={member.name}>
               <Card className="p-4">
-                <CardContent className="flex flex-col md:flex-row gap-6 h-auto lg:h-[45vh]">
+                <CardContent className="flex flex-col md:flex-row gap-6 h-auto lg:h-[65vh]">
                   {/* Left: Image */}
                   <div className="w-full md:w-1/3">
                     <img
