@@ -132,7 +132,7 @@ export default function FAQPage() {
               Frequently Asked Questions
             </Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">
-              Got Questions About <span className="text-zinc-300">Dog Training?</span>
+              Got Questions About <span className="text-accent">Dog Training?</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground text-balance leading-relaxed">
               Find answers to the most common questions about our training programs, methods, and what to expect.
@@ -148,7 +148,7 @@ export default function FAQPage() {
             {faqs.map((category, categoryIndex) => (
               <div key={categoryIndex} className="mb-12">
                 <div className="flex items-center space-x-2 mb-6">
-                  <HelpCircle className="h-6 w-6 text-zinc-300" />
+                  <HelpCircle className="h-6 w-6 text-accent" />
                   <h2 className="text-2xl md:text-3xl font-bold">{category.category}</h2>
                 </div>
 
@@ -179,14 +179,14 @@ export default function FAQPage() {
         <div className="container mx-auto px-4">
           <Card className="max-w-4xl mx-auto border-accent/20 bg-accent/5">
             <CardContent className="p-8 md:p-12 text-center">
-              <HelpCircle className="h-16 w-16 text-zinc-300 mx-auto mb-6" />
+              <HelpCircle className="h-16 w-16 text-accent mx-auto mb-6" />
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Still Have Questions?</h2>
               <p className="text-xl text-muted-foreground mb-8 text-balance leading-relaxed">
                 Don't see your question answered here? We're here to help! Contact us for personalized answers about
                 your dog's specific training needs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                <Button asChild size="lg" className="bg-zinc-300 hover:bg-zinc-300/90">
+                <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
                   <Link href="/contact">
                     Schedule Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" />
@@ -195,21 +195,15 @@ export default function FAQPage() {
               </div>
               <div className="flex flex-col sm:flex-row gap-6 justify-center items-center text-muted-foreground">
                 <div className="flex items-center space-x-2">
-                  <Phone className="h-5 w-5 text-zinc-300" />
+                  <Phone className="h-5 w-5 text-accent" />
                   <span>Or call us directly:</span>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="tel:7139097968"
-                    className="flex items-center space-x-2 text-zinc-300 hover:text-zinc-300/80 transition-colors font-semibold"
+                    className="flex items-center space-x-2 text-accent hover:text-accent/80 transition-colors font-semibold"
                   >
                     <span>Houston: (713) 909-7968</span>
-                  </a>
-                  <a
-                    href="tel:5126484510"
-                    className="flex items-center space-x-2 text-zinc-300 hover:text-zinc-300/80 transition-colors font-semibold"
-                  >
-                    <span>Austin: (512) 648-4510</span>
                   </a>
                 </div>
               </div>
