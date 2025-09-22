@@ -41,10 +41,10 @@ export default function ProgramsPage() {
       color: "bg-blue-500",
     },
     {
-      title: "2 Week On-Leash Hybrid Board and Train",
+      title: "Urban Dog Program",
       subtitle: "Ages 6 months and up",
       description:
-        "Our 2 week hybrid board and train is the easiest way to get the perfectly behaved pet you've always wanted! Your dog stays with us for 2 weeks for a mental and behavioral reset, and we really dial in their on-leash obedience commands. Leash pulling, jumping, impulse control, hyperactivity, and mild reactivity will all be addressed.",
+        "This program provides full reliability in all on-leash training. Perfect for dogs that live in apartments, suburbs, metro lifestyles, and/or are mostly in leashed environments.\n\n This course provides on-leash reliability for all of the basic commands.",
       image: "/images/red-pitbull-portrait.jpeg",
       duration: "2 weeks",
       price: "$2,450",
@@ -220,7 +220,7 @@ export default function ProgramsPage() {
                       </div>
                       <CardTitle className="text-3xl font-bold">{program.title}</CardTitle>
                       <p className="text-xl text-accent font-semibold">{program.subtitle}</p>
-                      <p className="text-muted-foreground leading-relaxed">{program.description}</p>
+                      <p className="text-muted-foreground leading-relaxed whitespace-pre-line">{program.description}</p>
                     </CardHeader>
 
                     <CardContent>
@@ -556,9 +556,11 @@ export default function ProgramsPage() {
                 Do you want the ultimate off-leash training experience? Do you wish you could take your dog anywhere and
                 have reliable control with all commands on-leash AND off-leash?
               </p>
-              <Button asChild size="lg" className="bg-accent hover:bg-accent/90 mb-6">
+              <Button asChild size="lg" className="bg-accent hover:bg-accent/90 mb-6 h-auto">
                 <Link href="/off-leash-raise-and-train">
-                  Learn About Our Off-Leash Raise and Train Program
+                  <p className="whitespace-normal w-[200px] md:w-auto">
+                    Learn About Our Off-Leash Raise and Train Program
+                  </p>
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
