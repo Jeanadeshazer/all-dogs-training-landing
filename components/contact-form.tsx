@@ -11,6 +11,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Send, CheckCircle } from "lucide-react"
+import axios from 'axios'
 
 export function ContactForm() {
   const [isSubmitted, setIsSubmitted] = useState(false)
@@ -28,10 +29,20 @@ export function ContactForm() {
     newsletter: false,
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     // Here you would typically send the form data to your backend
     console.log("Form submitted:", formData)
+
+    try{
+      const req = await axios.post('/api/submit/', formData)
+
+    console.log(req)
+
+    }catch(err){
+      console.log(err)
+    }
+
     setIsSubmitted(true)
   }
 
