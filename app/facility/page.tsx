@@ -31,7 +31,7 @@ export default function FacilityPage() {
                 Our Training <span className="text-accent">Facility</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 text-balance">
-                State-of-the-art training facility designed specifically for effective dog training in Houston
+                Our ranchette style training facility was designed for you and your dogs peace of mind.
               </p>
             </ScrollReveal>
           </div>
@@ -54,11 +54,15 @@ export default function FacilityPage() {
             </ScrollReveal>
             <ScrollReveal delay={200}>
               <div>
-                <h2 className="text-3xl font-bold mb-6">Professional Training Environment</h2>
+                <h2 className="text-3xl font-bold mb-6">Professionally Managed Home Environment</h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
                   Our Houston facility features both indoor and outdoor training areas designed to provide the optimal
                   environment for dog training. With spacious fields, covered training areas, and specialized equipment,
                   we create the perfect setting for your dog's learning journey.
+                  <br/>
+                  <br/>
+                  Whether your dog stays at our facility or in-home with a trainer, they have 24/7 supervision and a fully immersive
+                  training experience.
                 </p>
                 <div className="grid grid-cols-2 gap-4 mb-6">
                   <div className="flex items-center space-x-3">
@@ -71,7 +75,7 @@ export default function FacilityPage() {
                   </div>
                   <div className="flex items-center space-x-3">
                     <Users className="h-5 w-5 text-accent" />
-                    <span className="font-medium">Group & Private</span>
+                    <span className="font-medium">24/7 Monitoring</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Award className="h-5 w-5 text-accent" />
@@ -127,9 +131,9 @@ export default function FacilityPage() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">Covered Training Area</h3>
+                  <h3 className="text-xl font-semibold mb-2">Covered and Indoor Training Area</h3>
                   <p className="text-muted-foreground">
-                    Weather-protected space for year-round training with specialized equipment.
+                    Weather-protected and climate controlled space for year-round training with specialized equipment.
                   </p>
                 </div>
               </div>
@@ -146,9 +150,9 @@ export default function FacilityPage() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">Equipment Training Zone</h3>
+                  <h3 className="text-xl font-semibold mb-2">Lifestyle Based Training</h3>
                   <p className="text-muted-foreground">
-                    Specialized area with training platforms and equipment for advanced skill development.
+                    A home environment provides lifestyle based training tailored to you and your dog.
                   </p>
                 </div>
               </div>
@@ -279,7 +283,7 @@ export default function FacilityPage() {
             <div className="bg-gray-900 rounded-3xl p-8 md:p-12 text-center text-white">
               <h2 className="text-3xl font-bold mb-4 text-white">Ready to Visit Our Facility?</h2>
               <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
-                Schedule a tour of our Houston training facility and see why we're the preferred choice for dog training
+                Schedule a phone consultation
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg" variant="secondary">

@@ -31,7 +31,7 @@ export default function ContactPage() {
     {
       icon: <Clock className="h-6 w-6 text-accent" />,
       title: "Business Hours",
-      details: ["Monday - Sunday", "7:00 AM - 8:00 PM"],
+      details: ["Monday - Saturday", "7:00 AM - 8:00 PM"],
       action: null,
     },
   ]

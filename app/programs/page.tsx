@@ -41,13 +41,13 @@ export default function ProgramsPage() {
       color: "bg-blue-500",
     },
     {
-      title: "VIP Raise and Train",
+      title: "VIP Raise and Train (Houston Only)",
       subtitle: "Ages 6 months and under",
       description:
         "This is the gold standard in puppy raising. Your puppy will live with a professional trainer and be raised just like one of our dogs. They will learn how to live as a calm, confident, obedient member of the family with full stability and reliability. Your puppy will go where we go and be a part of everything, and everything is an immersive training opportunity. They will learn to socialize properly with our dogs, with people, and be exposed to various distractions for which they'll learn neutrality. This is the most comprehensive path from puppyhood to a perfect adult companion.",
       image: "/images/puppy-bench.jpeg",
       duration: "12 weeks",
-      price: "Get a Quote by calling (713) 909-7968",
+      price: "Get a Quote by calling us at\n(713) 909-7968",
       includes: "",
       features: [
         'Professional training',
@@ -87,6 +87,7 @@ export default function ProgramsPage() {
       subtitle: "6 months and up",
       description: 
         "Do you live an outdoorsy lifestyle and want the perfect off-roading companion? Is the farm/ranch lifestyle your passion? Want your dog to ride shotgun on the golf cart with you? Hiking? RV road warrior? Then this program is for you! ADVENTURE DOG is the ultimate lifestyle based program. It's a 100% holistic, nose to tail approach to training, on and off-leash, out in public, and based on your unique lifestyle. The end result is a dog that can go anywhere with you and be your perfect sidekick!\n\nYour dog will stay with us for a 3-4 week board and train (length dependent on each individual dog) for a total mental reset, to learn to live calmly, impulse control and solid reliability in all areas of training.\n\nOff-Leash in all basics, as well as training custom to your lifestyle.",
+      image: "/images/off-leash-image.jpg",
       duration: "3-4 weeks",
       price: "$4,950",
       includes: "5 follow up lessons with 3-4 weeks of boarding and training",
@@ -280,7 +281,7 @@ export default function ProgramsPage() {
                       {/* Price and CTA */}
                       <div className="flex items-center justify-between">
                         <div>
-                          <div className="text-3xl font-bold text-accent">{program.price}</div>
+                          <div className="text-3xl font-bold text-accent whitespace-pre-line">{program.price}</div>
                           <div className="text-sm text-muted-foreground">{program.includes}</div>
                         </div>
                         <Button asChild className="bg-accent hover:bg-accent/90">
@@ -306,7 +307,7 @@ export default function ProgramsPage() {
             <Badge variant="secondary" className="mb-4 text-accent-foreground bg-accent">
               Doggie Day School
             </Badge>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-balance">Doggie Day School Programs</h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-balance">Doggie Day School Programs (Houston Only)</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-balance leading-relaxed">
               Structured day training programs that combine socialization, exercise, and focused training sessions.
               Perfect for busy owners who want their dogs to receive professional training during the day while they
@@ -328,7 +329,7 @@ export default function ProgramsPage() {
                     ))}
                   </div>
                 </div>
-                <CardTitle className="text-3xl font-bold">Doggie Day School</CardTitle>
+                <CardTitle className="text-3xl font-bold">Doggie Day School (Available in All Locations)</CardTitle>
                 <p className="text-xl text-accent font-semibold">Structured Day Training</p>
                 <p className="text-muted-foreground leading-relaxed">
                   A comprehensive day training program where your dog learns essential skills through structured
@@ -775,7 +776,7 @@ export default function ProgramsPage() {
               </p>
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 mb-6 h-auto">
                 <Link href="/off-leash-raise-and-train">
-                  <p className="w-[200px] md:w-auto whitespace-wrap">
+                  <p className="whitespace-normal w-[200px] md:w-auto">
                     Learn About Our Off-Leash Raise and Train Program
                   </p>
                   <ArrowRight className="ml-2 h-5 w-5" />

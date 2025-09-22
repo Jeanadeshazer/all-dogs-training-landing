@@ -110,10 +110,9 @@ export function ServicesPreview() {
         <ScrollReveal className="mb-16">
           <div className="bg-gradient-to-r from-primary/5 to-accent/5 rounded-3xl p-8 md:p-12">
             <div className="text-center mb-8">
-              <h3 className="text-2xl md:text-3xl font-bold mb-4">Train at Our Professional Facility</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-4">Tour our facility</h3>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Our Houston facility provides the perfect environment for effective dog training with specialized
-                equipment and spacious areas.
+                Our ranchette style training facility just outside Houston provides a safe, calm, stress free learning environment. Your dog will either live with us here, or live in-home with their trainer, depending on which location you are training with. 
               </p>
             </div>
 

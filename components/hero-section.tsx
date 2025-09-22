@@ -79,13 +79,6 @@ export function HeroSection() {
           {/* Phone Numbers */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-white/90 animate-fade-in-up">
             <a
-              href="tel:5126484510"
-              className="flex items-center space-x-2 hover:text-accent transition-colors hover:scale-105 transform duration-200"
-            >
-              <span className="font-semibold">Austin:</span>
-              <span className="text-xl font-bold">(512) 648-4510</span>
-            </a>
-            <a
               href="tel:7139097968"
               className="flex items-center space-x-2 hover:text-accent transition-colors hover:scale-105 transform duration-200"
             >
