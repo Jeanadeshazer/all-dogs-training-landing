@@ -203,7 +203,7 @@ export default function FAQPage() {
                     href="tel:7139097968"
                     className="flex items-center space-x-2 text-accent hover:text-accent/80 transition-colors font-semibold"
                   >
-                    <span>Houston: (713) 909-7968</span>
+                    <span>Austin: (512) 648-4510</span>
                   </a>
                 </div>
               </div>
