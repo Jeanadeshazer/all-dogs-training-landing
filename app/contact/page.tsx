@@ -23,12 +23,6 @@ export default function ContactPage() {
       action: "tel:7139097968",
     },
     {
-      icon: <Phone className="h-6 w-6 text-accent" />,
-      title: "Austin Location",
-      details: ["(512) 648-4510", "Available 7 days a week"],
-      action: "tel:5126484510",
-    },
-    {
       icon: <Mail className="h-6 w-6 text-accent" />,
       title: "Email Us",
       details: ["info@alldogstrainingco.com", "Response within 24 hours"],
@@ -79,7 +73,7 @@ export default function ContactPage() {
       {/* Contact Information */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             {contactInfo.map((info, index) => (
               <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardContent className="p-6 text-center">
@@ -146,12 +140,6 @@ export default function ContactPage() {
                       className="block p-3 bg-accent text-accent-foreground rounded-lg text-center font-semibold hover:bg-accent/90 transition-colors"
                     >
                       Houston: (713) 909-7968
-                    </a>
-                    <a
-                      href="tel:5126484510"
-                      className="block p-3 bg-accent text-accent-foreground rounded-lg text-center font-semibold hover:bg-accent/90 transition-colors"
-                    >
-                      Austin: (512) 648-4510
                     </a>
                   </div>
                 </CardContent>

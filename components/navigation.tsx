@@ -90,10 +90,6 @@ export function Navigation() {
             <div className="text-sm space-y-1">
               <div className={cn("flex items-center space-x-1", getPhoneColor())}>
                 <Phone className="h-4 w-4" />
-                <span>Austin: (512) 648-4510</span>
-              </div>
-              <div className={cn("flex items-center space-x-1", getPhoneColor())}>
-                <Phone className="h-4 w-4" />
                 <span>Houston: (713) 909-7968</span>
               </div>
             </div>
