@@ -49,7 +49,7 @@ export function HeroSection() {
               ))}
             </div>
             <span className="text-white/90 font-medium">
-              Trusted by <AnimatedCounter end={500} suffix="+" className="inline font-bold text-accent" /> Houston
+              Trusted by <AnimatedCounter end={500} suffix="+" className="inline font-bold text-accent" /> Texas
               families
             </span>
           </div>
