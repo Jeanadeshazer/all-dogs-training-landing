@@ -30,7 +30,7 @@ export function HeroSection() {
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl lg:text-3xl mb-8 text-balance text-white/90 leading-relaxed animate-fade-in-up">
-            Imagine a deeeper bond with your best friend.
+            Imagine a deeper bond with your best friend.
             <br />
             <strong className="text-white">
               Our gentle programs help you and your dog thrive—together.
