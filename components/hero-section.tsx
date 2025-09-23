@@ -1,9 +1,9 @@
-"use client"
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Star, MapPin } from "lucide-react"
-import { AnimatedCounter } from "@/components/animated-counter"
+"use client";
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Star, MapPin } from "lucide-react";
+import { AnimatedCounter } from "@/components/animated-counter";
 
 export function HeroSection() {
   return (
@@ -30,27 +30,39 @@ export function HeroSection() {
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl lg:text-3xl mb-8 text-balance text-white/90 leading-relaxed animate-fade-in-up">
-            Imagine a deeper bond with your best friend.
+            Imagine a deeeper bond with your best friend.
             <br />
-            <strong className="text-white">Our gentle programs help you and your dog thrive—together.</strong>
+            <strong className="text-white">
+              Our gentle programs help you and your dog thrive—together.
+            </strong>
           </p>
 
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-accent/20 backdrop-blur-sm border border-accent/30 rounded-full px-4 py-2 mb-6 animate-fade-in-up">
             <MapPin className="h-4 w-4 text-accent" />
-            <span className="text-sm font-medium">Serving Houston & Austin</span>
+            <span className="text-sm font-medium">
+              Serving Houston & Austin
+            </span>
           </div>
 
           {/* Social Proof */}
           <div className="flex items-center justify-center space-x-2 mb-8 animate-fade-in-up">
             <div className="flex">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
+                <Star
+                  key={i}
+                  className="h-5 w-5 text-yellow-400 fill-current"
+                />
               ))}
             </div>
             <span className="text-white/90 font-medium">
-              Trusted by <AnimatedCounter end={500} suffix="+" className="inline font-bold text-accent" /> Houston
-              families
+              Trusted by{" "}
+              <AnimatedCounter
+                end={500}
+                suffix="+"
+                className="inline font-bold text-accent"
+              />{" "}
+              Houston families
             </span>
           </div>
 
@@ -89,5 +101,5 @@ export function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
