@@ -20,7 +20,7 @@ export function ServicesPreview() {
       title: "Obedience Training",
       description: "Comprehensive training for dogs of all ages to master essential commands.",
       image: "/images/puppy-bench.jpeg",
-      features: ["Sit, Stay, Come", "Leash Training", "Impulse Control", "Focus Training"],
+      features: ["All Core Commands", "Impulse Control", "Neutrality", "Problem Behaviors (jumping, counter surfing, ...etc)"],
       icon: <Users className="h-6 w-6" />,
       duration: "8-12 weeks",
     },
@@ -126,7 +126,7 @@ export function ServicesPreview() {
                 />
                 <div className="absolute inset-0 bg-black/20" />
                 <div className="absolute bottom-4 left-4 text-white">
-                  <h4 className="font-semibold">Training Equipment</h4>
+                  <h4 className="font-semibold">Lifestyle Training</h4>
                 </div>
               </div>
 

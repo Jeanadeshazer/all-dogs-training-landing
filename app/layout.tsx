@@ -7,18 +7,18 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "All Dogs Training Co - Best Dog Training Houston TX | Professional Dog Trainer",
+  title: "All Dogs Training Co - Best Dog Training Austin TX | Professional Dog Trainer",
   description:
-    "Professional dog training services in Houston, Texas. Expert dog trainers offering obedience training, behavioral modification, and puppy training. Locally owned and operated with proven results.",
+    "Professional dog training services in Austin, Texas. Expert dog trainers offering obedience training, behavioral modification, and puppy training. Locally owned and operated with proven results.",
   keywords:
-    "dog training houston, dog trainer houston, dog training houston texas, best dog trainer houston, best dog training houston, best dog training houston tx, train dog houston, dog training service houston, puppy training houston, obedience training houston",
+    "dog training austin, dog trainer austin, dog training austin texas, best dog trainer austin, best dog training austin, best dog training austin tx, train dog austin, dog training service austin, puppy training austin, obedience training austin",
   authors: [{ name: "All Dogs Training Co" }],
   creator: "All Dogs Training Co",
   publisher: "All Dogs Training Co",
   robots: "index, follow",
   openGraph: {
-    title: "All Dogs Training Co - Best Dog Training Houston TX",
-    description: "Professional dog training services in Houston, Texas. Expert dog trainers with proven results.",
+    title: "All Dogs Training Co - Best Dog Training Austin TX",
+    description: "Professional dog training services in Austin, Texas. Expert dog trainers with proven results.",
     url: "https://alldogstrainingco.com",
     siteName: "All Dogs Training Co",
     locale: "en_US",
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "All Dogs Training Co - Best Dog Training Houston TX",
-    description: "Professional dog training services in Houston, Texas. Expert dog trainers with proven results.",
+    title: "All Dogs Training Co - Best Dog Training austin TX",
+    description: "Professional dog training services in Austin, Texas. Expert dog trainers with proven results.",
   },
   alternates: {
     canonical: "https://alldogstrainingco.com",

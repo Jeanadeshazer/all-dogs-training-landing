@@ -26,7 +26,7 @@ export default function ProgramsPage() {
       image: "/images/puppy-shot.jpeg",
       duration: "2 weeks",
       price: "$1,950",
-      includes: "Full lesson program included",
+      includes: "1 go-home lesson and 4 follow up lessons to be used by 6 months old inclusive",
       features: [
         "Learning HOW to learn through markers",
         "Crate and house manners",
@@ -34,8 +34,7 @@ export default function ProgramsPage() {
         "Leash training",
         "Proper social skills with people and other dogs",
         "Beginning basic obedience",
-        "One go-home private lesson",
-        "4 week lesson program enrollment included",
+        "5 lessons included",
       ],
       icon: <Target className="h-8 w-8" />,
       color: "bg-blue-500",
@@ -154,10 +153,11 @@ export default function ProgramsPage() {
               Hybrid Board & Train Programs
             </h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto text-balance leading-relaxed">
-              Our hybrid board and train begins with a short board and train to really make the most progress in the
-              shortest amount of time. Once the board and train is complete, you receive complimentary enrollment in our
-              lesson program. This ensures that not only are you fully trained in what we taught your dog, but we train
-              you how to continue training your dog.
+              We cover everything from puppy foundational work, to standard obedience training, to behavioral issues,
+              as well as advanced obedience. Our training approach is very results oriented through proven balanced methods
+              which transfer seamlessly to the owners. Good behaviors are rewarded, increased, and made reliable, while bad 
+              behaviors are eliminated. Our unique relationship based training allows dogs and owners to have a complete reset and 
+              start over together.
             </p>
           </div>
 
@@ -251,175 +251,6 @@ export default function ProgramsPage() {
               Perfect for busy owners who want their dogs to receive professional training during the day while they
               work.
             </p>
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-12 mb-16">
-            {/* Doggie Day School */}
-            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <CardHeader>
-                <div className="flex items-center justify-between mb-2">
-                  <Badge variant="outline" className="text-accent border-accent">
-                    Training Program
-                  </Badge>
-                  <div className="flex items-center space-x-1">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
-                    ))}
-                  </div>
-                </div>
-                <CardTitle className="text-3xl font-bold">Doggie Day School for all ages (Available in Houston Only)</CardTitle>
-                <p className="text-xl text-accent font-semibold">Structured Day Training</p>
-                <p className="text-muted-foreground leading-relaxed">
-                  Our Day School program is the perfect option for professional obedience training while still having your dog home every night. 
-                  Let your dog spend the work day with us in a safe, calm environment of structured learning and safe play. Drop off and pick up 
-                  at our Cypress area location.
-                  <br/>
-                  *not suitable for dogs with serious behavior issues
-                </p>
-              </CardHeader>
-
-              <CardContent>
-                <div className="space-y-6">
-                  {/* 5 Visits Package */}
-                  <div className="border rounded-lg p-4 bg-muted/30">
-                    <div className="flex items-center justify-between mb-3">
-                      <h4 className="text-lg font-semibold">5 Visits Package</h4>
-                      <div className="text-2xl font-bold text-accent">$750</div>
-                    </div>
-                    <p className="text-sm text-muted-foreground mb-3">Foundation Skills Program</p>
-                    <div className="space-y-2">
-                      {["Leash Skills", "Recall Training", "Place Command"].map((skill, index) => (
-                        <div key={index} className="flex items-center space-x-2">
-                          <CheckCircle className="h-4 w-4 text-accent flex-shrink-0" />
-                          <span className="text-sm">{skill}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* 14 Visits Package */}
-                  <div className="border rounded-lg p-4 bg-accent/5 border-accent/20">
-                    <div className="flex items-center justify-between mb-3">
-                      <h4 className="text-lg font-semibold">14 Visits Package</h4>
-                      <div className="text-2xl font-bold text-accent">$1,950</div>
-                    </div>
-                    <p className="text-sm text-muted-foreground mb-3">Complete Core Commands Program</p>
-                    <div className="space-y-2">
-                      {["All Core Commands", "Advanced Obedience", "Behavioral Refinement", "Socialization Skills"].map(
-                        (skill, index) => (
-                          <div key={index} className="flex items-center space-x-2">
-                            <CheckCircle className="h-4 w-4 text-accent flex-shrink-0" />
-                            <span className="text-sm">{skill}</span>
-                          </div>
-                        ),
-                      )}
-                    </div>
-                  </div>
-                  <div className="border rounded-lg p-4 bg-muted/30">
-                    <div className="flex items-center justify-between mb-3">
-                      <h4 className="text-lg font-semibold">VIP Unlimited Monthly Membership</h4>
-                      <div className="text-2xl font-bold text-accent">$3,500</div>
-                    </div>
-                    <p className="text-sm text-muted-foreground mb-3">Foundation Skills Program</p>
-                    <div className="space-y-2">
-                      {["All Core COmmands", "E-Collar", "Off-Leash"].map((skill, index) => (
-                        <div key={index} className="flex items-center space-x-2">
-                          <CheckCircle className="h-4 w-4 text-accent flex-shrink-0" />
-                          <span className="text-sm">{skill}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-6">
-                  <Button asChild className="w-full bg-accent hover:bg-accent/90">
-                    <Link href="/contact">
-                      Enroll in Day School
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Doggie Day School Tune-Ups */}
-            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <CardHeader>
-                <div className="flex items-center justify-between mb-2">
-                  <Badge variant="outline" className="text-green-600 border-green-600">
-                    Maintenance Program
-                  </Badge>
-                  <div className="flex items-center space-x-1">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
-                    ))}
-                  </div>
-                </div>
-                <CardTitle className="text-3xl font-bold">Day School Tune-Ups</CardTitle>
-                <p className="text-xl text-green-600 font-semibold">Ongoing Maintenance</p>
-                <p className="text-muted-foreground leading-relaxed">
-                  For dogs and puppies that have already gone through one of our programs, this is a great option to keep reinforcing training, as
-                  well as provide mental and physical enrichment. It's the perfect continuation of all our board and train programs!
-                  <br/>
-                  *Only for dogs that have been through one of our programs already
-                </p>
-              </CardHeader>
-
-              <CardContent>
-                <div className="space-y-6">
-                  {/* Daily Rate */}
-                  <div className="border rounded-lg p-4 bg-muted/30">
-                    <div className="flex items-center justify-between mb-3">
-                      <h4 className="text-lg font-semibold">Daily Rate</h4>
-                      <div className="text-2xl font-bold text-green-600">$50</div>
-                    </div>
-                    <p className="text-sm text-muted-foreground mb-3">Per Day Training Session</p>
-                    <div className="space-y-2">
-                      {["Skill Reinforcement", "Behavioral Maintenance", "Exercise & Socialization"].map(
-                        (benefit, index) => (
-                          <div key={index} className="flex items-center space-x-2">
-                            <CheckCircle className="h-4 w-4 text-green-600 flex-shrink-0" />
-                            <span className="text-sm">{benefit}</span>
-                          </div>
-                        ),
-                      )}
-                    </div>
-                  </div>
-
-                  {/* Monthly Unlimited */}
-                  <div className="border rounded-lg p-4 bg-green-50 border-green-200">
-                    <div className="flex items-center justify-between mb-3">
-                      <h4 className="text-lg font-semibold">Monthly Unlimited</h4>
-                      <div className="text-2xl font-bold text-green-600">$1,000</div>
-                    </div>
-                    <p className="text-sm text-muted-foreground mb-3">Unlimited Monthly Visits</p>
-                    <div className="space-y-2">
-                      {[
-                        "Unlimited Day School Access",
-                        "Continuous Skill Development",
-                        "Priority Scheduling",
-                        "Progress Monitoring",
-                      ].map((benefit, index) => (
-                        <div key={index} className="flex items-center space-x-2">
-                          <CheckCircle className="h-4 w-4 text-green-600 flex-shrink-0" />
-                          <span className="text-sm">{benefit}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-6">
-                  <Button asChild className="w-full bg-green-600 hover:bg-green-700">
-                    <Link href="/contact">
-                      Start Tune-Ups
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
           </div>
 
           <div className="text-center">
