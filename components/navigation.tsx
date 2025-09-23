@@ -67,7 +67,7 @@ export function Navigation() {
               alt="All Dogs Training Co Logo"
               width={120}
               height={60}
-              className="h-12 w-auto lg:h-14"
+              className="h-12 w-auto lg:h-20"
               priority
             />
           </Link>
