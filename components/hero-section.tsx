@@ -38,7 +38,7 @@ export function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-accent/20 backdrop-blur-sm border border-accent/30 rounded-full px-4 py-2 mb-6 animate-fade-in-up">
             <MapPin className="h-4 w-4 text-accent" />
-            <span className="text-sm font-medium">Serving Houston & Austin</span>
+            <span className="text-sm font-medium">Serving Houston & Austin & Atlanta Georgia</span>
           </div>
 
           {/* Social Proof */}
@@ -77,7 +77,7 @@ export function HeroSection() {
           </div>
 
           {/* Phone Numbers */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-white/90 animate-fade-in-up">
+          <div className="flex flex-row sm:flex-col items-center justify-center gap-6 text-white/90 animate-fade-in-up">
             <a
               href="tel:5126484510"
               className="flex items-center space-x-2 hover:text-accent transition-colors hover:scale-105 transform duration-200"
