@@ -81,7 +81,7 @@ export function Footer() {
                   href="mailto:info@alldogstrainingco.com"
                   className="text-white hover:text-blue-400 transition-colors"
                 >
-                  info@alldogstrainingco.com
+                  infohtx@alldogstrainingco.com
                 </a>
               </li>
             </ul>
