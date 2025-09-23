@@ -33,7 +33,7 @@ export function HeroSection() {
             Imagine a deeper bond with your best friend.
             <br />
             <strong className="text-white">
-              Our gentle programs help you and your dog thrive—together.
+              Our programs help you and your dog thrive—together.
             </strong>
           </p>
 
