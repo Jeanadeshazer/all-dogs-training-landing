@@ -5,7 +5,7 @@ import { X, CheckCircle, CircleCheckBig } from "lucide-react"
 export function ProblemSolution() {
   const problems = [
     'Walking side by side without pulling',
-    'Greeting guests with calm excitement',
+    'Greeting guests calmly',
     'Building confidence and focus',
     'Easing anxiety and big feelings',
     'Reducing barking, chewing, or reactivity',

@@ -22,11 +22,6 @@ export default function FAQPage() {
       category: "General Questions",
       questions: [
         {
-          question: "How long does dog training take?",
-          answer:
-            "The duration depends on your dog's age, current behavior, and the specific issues being addressed. Puppy training typically takes 6-8 weeks, while adult obedience training takes 8-12 weeks. Behavioral modification programs vary based on the complexity of the issues. We'll provide a realistic timeline during your free consultation.",
-        },
-        {
           question: "What makes All Dogs Training Co different?",
           answer:
             "We are not a franchise with cookie cutter methods that don't work. We customize training to each individual dog and owner, and focus on creating a relationship based on connection and communication. Our training process is made to transfer easily to the owner, and we provide multiple follow up lessons to ensure lasting success.",
@@ -34,7 +29,7 @@ export default function FAQPage() {
         {
           question: "Do you offer a guarantee?",
           answer:
-            "Yes! We're so confident in our methods that we offer a satisfaction guarantee. If you're not seeing results, we'll work with you until you do. Our goal is your success, and we stand behind our training programs 100%.",
+            "We guarantee the dog is trained within the parameters we have set. But training only works if the owners are consistent and follow through with what we teach them when the dog goes home. That’s why we provide multiple follow up lessons and lifetime support to help owners maintain lasting results. ",
         },
         {
           question: "What training methods do you use?",
@@ -47,19 +42,14 @@ export default function FAQPage() {
       category: "Training Programs",
       questions: [
         {
-          question: "What's included in the puppy training program?",
-          answer:
-            "Our puppy program covers basic commands (sit, stay, come, down), house training, crate training, proper socialization, bite inhibition, leash walking basics, and problem prevention strategies. We also provide ongoing support and guidance throughout the program.",
-        },
-        {
           question: "Can you help with aggressive dogs?",
           answer:
-            "Private sessions are included in all our board and train programs, as well as our day school program. The path to the best, and fastest, results is when we get the dog where he needs to be first, and then transfer that to the owners through lessons.",
+            "Yes, we specialize in behavioral modification including aggression issues. As long as the dog is able to be safely handled by us, we can work with various aggression and reactivity concerns. Safety, doing whats best for the dog, and positive progress are our top priorities. ",
         },
         {
           question: "Do you offer private training sessions?",
           answer:
-            "We offer private in-home training sessions for dogs that need individual attention or have specific behavioral issues that are better addressed one-on-one. Private sessions can be more intensive and tailored to your dog's unique needs.",
+            "Private sessions are included in all our board and train programs, as well as our day school program. The path to the best, and fastest, results is when we get the dog where he needs to be first, and then transfer that to the owners through lessons. ",
         },
         {
           question: "What if my dog doesn't get along with other dogs?",
@@ -74,7 +64,7 @@ export default function FAQPage() {
         {
           question: "How much does training cost?",
           answer:
-            "The exact cost depends on which program fits your needs. Our Day School packages start at $750 and our Board and Trains start at $2,000 and include all equipment and lessons.",
+            "The exact cost depends on which program fits your needs. Our Day School packages start at $750 and our Board and Trains start at $1,950 and include all equipment and lessons.",
         },
         {
           question: "Where are you located?",
@@ -82,34 +72,28 @@ export default function FAQPage() {
             "Our Texas training locations are in Austin and Houston. We serve all surrounding areas as well.\n\nOur Georgia training locations are in Villa Rica and Fayetteville. We serve all surrounding areas including Atlanta metro area.",
         },
         {
-          question: "What should I bring to the first session?",
-          answer:
-            "Bring your dog on a leash, some high-value treats your dog loves, any training equipment you currently use, and a list of specific behaviors you'd like to address. We'll provide additional guidance when you schedule your consultation.",
+          question: "How much does training cost?",
+          answer: "The exact cost depends on which program fits your needs. Our Day School packages start at $750 and our Board and Trains start at $2,000 and include all equipment and lessons."
         },
         {
           question: "What should I bring with my dog?",
           answer: 
             "Bring your dog on a leash, enough food for his stay, and any meds he needs while with us. We provide everything else!"
         },
-        {
-          question: "Can I start training if my dog isn't fully vaccinated?",
-          answer:
-            "For puppies under 16 weeks who aren't fully vaccinated, we can start with private sessions or controlled environments. Once your puppy is fully vaccinated, they can join group classes. We prioritize your puppy's health and safety while ensuring they get the early training they need.",
-        },
       ],
     },
     {
       category: "Results & Expectations",
       questions: [
-        {
-          question: "How quickly will I see results?",
-          answer:
-            "Many clients see improvements within the first few sessions, but lasting behavioral change takes time and consistency. Simple commands can be learned quickly, while complex behavioral issues may take several weeks to months. We'll set realistic expectations during your consultation.",
-        },
-        {
+         {
           question: "What if my dog is older? Is it too late to train?",
           answer:
             "It's never too late to train a dog! While puppies may learn faster, adult and senior dogs can absolutely learn new behaviors and overcome bad habits. We've successfully trained dogs of all ages, from 8-week-old puppies to 12-year-old seniors.",
+        },
+        {
+          question: "What happens after the training program ends?",
+          answer:
+            "We provide lifetime support for all our clients! You can contact us anytime with questions or if you need refresher sessions.",
         },
         {
           question: "Will the training work if I have multiple dogs?",
@@ -117,14 +101,9 @@ export default function FAQPage() {
             "Yes! We can work with multiple dogs, though the approach may vary depending on their individual needs and how they interact with each other. Sometimes we train dogs separately initially, then work on group dynamics. We'll assess your specific situation during the consultation.",
         },
         {
-          question: "What happens after the training program ends?",
-          answer:
-            "We provide lifetime support for all our clients! You can contact us anytime with questions or if you need refresher sessions. We also offer advanced training programs and ongoing group classes to continue your dog's education.",
-        },
-        {
           question: "What should I expect while my dog is gone?",
           answer:
-            "24 hours after drop off, you'll receive a picture and a quick update on how your pup is settling in. We'll spend the next few days bonding with your dog and starting the training foundation. By the end of the first week you'll receive your first video progress report. We spend the next week addressing problem behaviors, adding distractions, proofing behaviors, and continue proper e-collar conditioning as a reinforcer. You'll receive 1-2 more video progress reports during this time. If your dog is staying with you also. Following that, we'll start proofing off-leash work and continue proofing obedience with more difficult distractions. You'll receive 1-2 more videos during this time."
+            "24 hours after drop off you’ll receive a picture and a quick update on how your pup is settling in. We’ll spend the next few days bonding with your dog and starting the training foundation. By the end of the first week you’ll receive your first video progress report. We spend the next week addressing problem behaviors, adding distractions, proofing behaviors, and continue proper e-collar conditioning as a reinforcer. You’ll receive 1-2 more video progress reports during this time. If your dog is staying for the 3-4 week program this is when you’ll come for a visit/lesson so we can begin working with you also. Following that, we’ll start proofing off-leash work and continue proofing obedience with more difficult distractions.You’ll receive 1-2 more videos during this time."
         }
       ],
     },

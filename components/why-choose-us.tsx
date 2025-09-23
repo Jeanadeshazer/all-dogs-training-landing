@@ -55,7 +55,7 @@ export function WhyChooseUs() {
                 height={400}
                 className="rounded-2xl shadow-2xl"
               />
-              <div className="absolute -bottom-6 -right-6 bg-accent text-accent-foreground p-6 rounded-2xl shadow-xl">
+              <div className="absolute -bottom-6 right-3 md:-right-6  bg-accent text-accent-foreground p-6 rounded-2xl shadow-xl">
                 <div className="text-center">
                   <div className="text-3xl font-bold">
                     <AnimatedCounter end={500} suffix="+" />
@@ -89,14 +89,14 @@ export function WhyChooseUs() {
         {/* Bottom Message */}
         <ScrollReveal className="text-center mt-16">
           <p className="text-xl md:text-2xl font-semibold text-foreground mb-4">
-            Both of our locations are privately owned, founded by, and run by an actual dog trainer.
+            All of our are privately owned, founded by, and run by a nationally-titled and recognized trainer.
           </p>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance leading-relaxed">
             We have decades of unparalleled professional training and coaching experience with pets and their owners,
             and countless success stories.
           </p>
           <p className="text-xl font-bold text-gray-500 mt-6">
-            Let us train you how to train your dog for 100% lasting success!
+            Let us train you to communicate with your dog for 100% lasting success!
           </p>
         </ScrollReveal>
       </div>
