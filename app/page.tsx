@@ -7,7 +7,7 @@ import { PhotoGrid } from "@/components/photo-grid"
 import { Footer } from "@/components/footer"
 import { FloatingActionButton } from "@/components/floating-action-button"
 import TrainerTabsSection from '@/components/trainer-tabs-section'
-import { Train } from "lucide-react"
+
 
 export default function HomePage() {
   return (
