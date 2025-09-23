@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Leash pulling? Lack of obedience? Behavior issues? Social issues? Reactivity? We can help with that! All of our programs are customized to bring out the very best in your dog. All programs come with follow-up lessons and lifetime support for continued success.",
   keywords:
-    "board and train houston, off-leash dog training houston, puppy training houston, obedience training houston, behavioral modification houston, dog training services houston tx, professional dog training houston",
+    "board and train austin, off-leash dog training austin, puppy training austin, obedience training austin, behavioral modification austin, dog training services austin tx, professional dog training austin",
 }
 
 export default function ProgramsPage() {
@@ -234,33 +234,6 @@ export default function ProgramsPage() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Doggie Day School Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <Badge variant="secondary" className="mb-4 text-accent-foreground bg-accent">
-              Doggie Day School
-            </Badge>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-balance">Doggie Day School Programs (Houston Only)</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-balance leading-relaxed">
-              Structured day training programs that combine socialization, exercise, and focused training sessions.
-              Perfect for busy owners who want their dogs to receive professional training during the day while they
-              work.
-            </p>
-          </div>
-
-          <div className="text-center">
-            <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
-              <Link href="/contact">
-                <span className="hidden sm:inline">Schedule Your Complimentary Consultation</span>
-                <span className="sm:hidden">Schedule Consultation</span>
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
           </div>
         </div>
       </section>

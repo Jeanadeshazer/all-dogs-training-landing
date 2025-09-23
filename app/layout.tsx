@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "All Dogs Training Co - Best Dog Training Austin TX",
     description: "Professional dog training services in Austin, Texas. Expert dog trainers with proven results.",
     url: "https://alldogstrainingco.com",
-    siteName: "All Dogs Training Co",
+    siteName: "All Dogs Training Co - Austin, TX",
     locale: "en_US",
     type: "website",
   },

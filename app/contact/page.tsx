@@ -7,11 +7,11 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us - All Dogs Training Co | Dog Training Houston TX",
+  title: "Contact Us - All Dogs Training Co | Dog Training austin TX",
   description:
-    "Contact All Dogs Training Co for professional dog training in Houston and Austin. Schedule your free consultation today. Call (713) 909-7968 Houston or (512) 648-4510 Austin.",
+    "Contact All Dogs Training Co for professional dog training in austin and Austin. Schedule your free consultation today. Call (713) 909-7968 Houston or (512) 648-4510 Austin.",
   keywords:
-    "contact dog trainer houston, dog training consultation houston, schedule dog training houston, dog trainer phone number houston, dog training contact houston tx",
+    "contact dog trainer austin, dog training consultation austin, schedule dog training austin, dog trainer phone number austin, dog training contact austin tx",
 };
 
 export default function ContactPage() {

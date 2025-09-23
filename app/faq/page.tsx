@@ -9,11 +9,11 @@ import { ArrowRight, HelpCircle, Phone } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "FAQ - All Dogs Training Co | Dog Training Questions Houston TX",
+  title: "FAQ - All Dogs Training Co | Dog Training Questions Austin TX",
   description:
-    "Frequently asked questions about dog training services in Houston TX. Get answers about our training programs, pricing, and methods from professional dog trainers.",
+    "Frequently asked questions about dog training services in Austin TX. Get answers about our training programs, pricing, and methods from professional dog trainers.",
   keywords:
-    "dog training FAQ houston, dog training questions houston, dog trainer FAQ houston tx, dog training cost houston, how long dog training houston",
+    "dog training FAQ austin, dog training questions austin, dog trainer FAQ austin tx, dog training cost austin, how long dog training austin",
 }
 
 export default function FAQPage() {
