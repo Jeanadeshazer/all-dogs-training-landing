@@ -104,7 +104,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <Image //Change image to what she sent
-                src="/images/group-training.jpeg"
+                src="/images/H-V-cafe.jpg"
                 alt="Professional dog training session with multiple dogs and owners at All Dogs Training Co Houston facility"
                 width={600}
                 height={400}
