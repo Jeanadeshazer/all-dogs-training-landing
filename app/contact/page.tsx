@@ -18,7 +18,7 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: <Phone className="h-6 w-6 text-accent" />,
-      title: "Austin Location ",
+      title: "Austin Location",
       details: ["(512) 648-4510", "Available 7 days a week"],
       action: "tel:5126484510",
     },
