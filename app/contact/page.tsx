@@ -130,7 +130,30 @@ export default function ContactPage() {
           <div className="grid lg:grid-cols-3 gap-12">
             {/* Contact Form */}
             <div className="lg:col-span-2">
-              <ContactForm />
+              <iframe
+    src="https://api.leadconnectorhq.com/widget/form/DAEgiuKEvtTnt4HT7mTp"
+    style={{
+      width: "100%",
+      height: "100%",
+      border: "none",
+      borderRadius: "3px",
+    }}
+    id="inline-DAEgiuKEvtTnt4HT7mTp" 
+    data-layout="{'id':'INLINE'}"
+    data-trigger-type="alwaysShow"
+    data-trigger-value=""
+    data-activation-type="alwaysActivated"
+    data-activation-value=""
+    data-deactivation-type="neverDeactivate"
+    data-deactivation-value=""
+    data-form-name="Houston Site Submit Form"
+    data-height="1032"
+    data-layout-iframe-id="inline-DAEgiuKEvtTnt4HT7mTp"
+    data-form-id="DAEgiuKEvtTnt4HT7mTp"
+    title="Houston Site Submit Form"
+        >
+</iframe>
+<script src="https://link.msgsndr.com/js/form_embed.js"></script>
             </div>
 
             {/* Additional Info */}
