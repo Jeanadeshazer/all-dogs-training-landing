@@ -39,14 +39,14 @@ export default function ContactPage() {
   const serviceAreas = [
     "Houston, TX",
     "Austin, TX",
-    "Katy, TX",
-    "Sugar Land, TX",
-    "The Woodlands, TX",
-    "Pearland, TX",
-    "Round Rock, TX",
-    "Cedar Park, TX",
-    "Pflugerville, TX",
-    "Leander, TX",
+    "Cypress",
+    "Cedar Park",
+    "Katy",
+    "Round Rock",
+    "The Woodlands",
+    "Bastrop",
+    "And all surrounding areas",
+    "And all surrounding areas",
   ];
 
   return (

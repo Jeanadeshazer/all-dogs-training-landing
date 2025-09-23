@@ -89,7 +89,7 @@ export function WhyChooseUs() {
         {/* Bottom Message */}
         <ScrollReveal className="text-center mt-16">
           <p className="text-xl md:text-2xl font-semibold text-foreground mb-4">
-            All of our are privately owned, founded by, and run by a nationally-titled and recognized trainer.
+            All of our locations privately owned, founded by, and run by a nationally-titled and recognized trainer.
           </p>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance leading-relaxed">
             We have decades of unparalleled professional training and coaching experience with pets and their owners,

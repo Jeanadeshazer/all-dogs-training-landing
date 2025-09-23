@@ -26,7 +26,7 @@ export default function ProgramsPage() {
       image: "/images/puppy-shot.jpeg", //Change image
       duration: "2 weeks",
       price: "$1,950",
-      includes: "Full lesson program included",
+      includes: "1 go-home lesson and 4 follow up lessons to be used by 6 months old inclusive",
       features: [
         "Learning HOW to learn through markers",
         "Crate and house manners",
@@ -34,8 +34,7 @@ export default function ProgramsPage() {
         "Leash training",
         "Proper social skills with people and other dogs",
         "Beginning basic obedience",
-        "One go-home private lesson",
-        "4 week lesson program enrollment included",
+        "5 lessons included",
       ],
       icon: <Target className="h-8 w-8" />,
       color: "bg-blue-500",
@@ -323,7 +322,7 @@ export default function ProgramsPage() {
                     </div>
                     <p className="text-sm text-muted-foreground mb-3">Foundation Skills Program</p>
                     <div className="space-y-2">
-                      {["All Core COmmands", "E-Collar", "Off-Leash"].map((skill, index) => (
+                      {["All Core Commands", "Conditioning", "Foundation"].map((skill, index) => (
                         <div key={index} className="flex items-center space-x-2">
                           <CheckCircle className="h-4 w-4 text-accent flex-shrink-0" />
                           <span className="text-sm">{skill}</span>

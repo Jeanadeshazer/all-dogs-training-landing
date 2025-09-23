@@ -72,10 +72,6 @@ export default function FAQPage() {
             "Our Texas training locations are in Austin and Houston. We serve all surrounding areas as well.\n\nOur Georgia training locations are in Villa Rica and Fayetteville. We serve all surrounding areas including Atlanta metro area.",
         },
         {
-          question: "How much does training cost?",
-          answer: "The exact cost depends on which program fits your needs. Our Day School packages start at $750 and our Board and Trains start at $2,000 and include all equipment and lessons."
-        },
-        {
           question: "What should I bring with my dog?",
           answer: 
             "Bring your dog on a leash, enough food for his stay, and any meds he needs while with us. We provide everything else!"
