@@ -62,7 +62,7 @@ export function HeroSection() {
                 suffix="+"
                 className="inline font-bold text-accent"
               />{" "}
-              Houston families
+              Texas families
             </span>
           </div>
 
