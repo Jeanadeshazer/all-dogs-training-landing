@@ -539,32 +539,6 @@ export default function ProgramsPage() {
         </div>
       </section>
 
-      {/* Off-Leash Raise and Train CTA */}
-      <section className="py-20 bg-gradient-to-br from-accent/5 to-primary/5">
-        <div className="container mx-auto px-4">
-          <Card className="max-w-4xl mx-auto border-accent/20 bg-accent/5">
-            <CardContent className="p-8 md:p-12 text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Want the Ultimate Off-Leash Training Experience?</h2>
-              <p className="text-xl text-muted-foreground mb-8 text-balance leading-relaxed">
-                Do you want the ultimate off-leash training experience? Do you wish you could take your dog anywhere and
-                have reliable control with all commands on-leash AND off-leash?
-              </p>
-              <Button asChild size="lg" className="bg-accent hover:bg-accent/90 mb-6 h-auto">
-                <Link href="/off-leash-raise-and-train">
-                  <p className="whitespace-normal w-[200px] md:w-auto">
-                    Learn About Our Off-Leash Raise and Train Program
-                  </p>
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
-              <p className="text-lg font-semibold text-accent">
-                Every dog is a good dog, let us help make your dog a great dog!
-              </p>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
