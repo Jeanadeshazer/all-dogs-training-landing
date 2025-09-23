@@ -23,7 +23,7 @@ export default function ProgramsPage() {
       subtitle: "Ages 8 weeks - 5 months",
       description:
         "Set your puppy up for success and let us help you give them the best start possible! This is a 2 week long board and train in which your puppy will live with us in a structured home environment to lay the foundation for learning HOW to learn through markers, crate and house manners, name recognition, leash training, proper social skills with people and other dogs, and beginning basic obedience.",
-      image: "/images/golden-dog-steps.jpeg",
+      image: "/images/puppy-shot.jpeg",
       duration: "2 weeks",
       price: "$1,950",
       includes: "Full lesson program included",
@@ -106,68 +106,6 @@ export default function ProgramsPage() {
       icon: <Target className="w-8 h-8"/>,
       color: "bg-green-500",
     }
-  ]
-
-  const lessonPrograms = [
-    {
-      title: "Puppy Grow and Learn",
-      subtitle: "8 weeks through 5 months",
-      description:
-        "Perfect for owners who want to be part of every step of the training process, and keep their dog at home through training. We coach you, and you are in charge of your dogs progress!",
-      image: "/images/golden-dog-steps.jpeg",
-      features: [
-        "Teach focus on you through luring and rewards",
-        "Socialization and exposure",
-        "Neutrality",
-        "Basic Obedience Commands",
-      ],
-      icon: <Target className="h-8 w-8" />,
-      color: "bg-blue-500",
-    },
-    {
-      title: "Adult Obedience Foundations",
-      subtitle: "6 Months and up",
-      description:
-        "Level 1 foundation training for adult dogs focusing on essential obedience skills and communication.",
-      image: "/images/red-pitbull-portrait.jpeg",
-      features: [
-        "Learning Foundation (Marker Training)",
-        "Loose Leash Walking",
-        "Stationary Commands Through Luring, Hand Cues, Verbal Cues (Sit/Stay and Down/Stay)",
-        "Come When Called! Taught through fun games using markers and rewards",
-        "Place Command- Go to place and settle with distance and duration",
-      ],
-      icon: <Users className="h-8 w-8" />,
-      color: "bg-green-500",
-    },
-    {
-      title: "Off-Leash Foundation",
-      subtitle: "Prerequisite Level 1",
-      description: "Advanced training building towards reliable off-leash control and emergency commands.",
-      image: "/images/trainer-silhouette.jpeg",
-      features: [
-        "E-Collar Foundation for off-leash reliability",
-        "Work Towards a Bombproof Recall in All Situations",
-        "Emergency Down",
-        "Solid Heel On-Leash and Work Towards Off-Leash",
-      ],
-      icon: <Clock className="h-8 w-8" />,
-      color: "bg-purple-500",
-    },
-    {
-      title: "Advanced Off-Leash",
-      subtitle: "Prerequisite Level 1 & 2",
-      description: "The ultimate in off-leash reliability with comprehensive proofing under all distractions.",
-      image: "/images/beach-sunset-dog.jpeg",
-      features: [
-        "PROOF PROOF PROOF Everything!",
-        "Reliable Off-Leash Commands Under Distraction",
-        "Off-Leash Heel",
-        "Proofing Behavior Modification",
-      ],
-      icon: <Star className="h-8 w-8" />,
-      color: "bg-orange-500",
-    },
   ]
 
   return (
@@ -329,12 +267,14 @@ export default function ProgramsPage() {
                     ))}
                   </div>
                 </div>
-                <CardTitle className="text-3xl font-bold">Doggie Day School (Available in All Locations)</CardTitle>
+                <CardTitle className="text-3xl font-bold">Doggie Day School for all ages (Available in Houston Only)</CardTitle>
                 <p className="text-xl text-accent font-semibold">Structured Day Training</p>
                 <p className="text-muted-foreground leading-relaxed">
-                  A comprehensive day training program where your dog learns essential skills through structured
-                  activities, socialization, and focused training sessions. Choose from our foundational or advanced
-                  packages based on your dog's needs.
+                  Our Day School program is the perfect option for professional obedience training while still having your dog home every night. 
+                  Let your dog spend the work day with us in a safe, calm environment of structured learning and safe play. Drop off and pick up 
+                  at our Cypress area location.
+                  <br/>
+                  *not suitable for dogs with serious behavior issues
                 </p>
               </CardHeader>
 
@@ -375,6 +315,21 @@ export default function ProgramsPage() {
                       )}
                     </div>
                   </div>
+                  <div className="border rounded-lg p-4 bg-muted/30">
+                    <div className="flex items-center justify-between mb-3">
+                      <h4 className="text-lg font-semibold">VIP Unlimited Monthly Membership</h4>
+                      <div className="text-2xl font-bold text-accent">$3,500</div>
+                    </div>
+                    <p className="text-sm text-muted-foreground mb-3">Foundation Skills Program</p>
+                    <div className="space-y-2">
+                      {["All Core COmmands", "E-Collar", "Off-Leash"].map((skill, index) => (
+                        <div key={index} className="flex items-center space-x-2">
+                          <CheckCircle className="h-4 w-4 text-accent flex-shrink-0" />
+                          <span className="text-sm">{skill}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
 
                 <div className="mt-6">
@@ -404,8 +359,10 @@ export default function ProgramsPage() {
                 <CardTitle className="text-3xl font-bold">Day School Tune-Ups</CardTitle>
                 <p className="text-xl text-green-600 font-semibold">Ongoing Maintenance</p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Keep your dog's training sharp with our flexible tune-up program. Perfect for maintaining skills,
-                  addressing new behaviors, or providing ongoing socialization and exercise.
+                  For dogs and puppies that have already gone through one of our programs, this is a great option to keep reinforcing training, as
+                  well as provide mental and physical enrichment. It's the perfect continuation of all our board and train programs!
+                  <br/>
+                  *Only for dogs that have been through one of our programs already
                 </p>
               </CardHeader>
 
@@ -473,191 +430,6 @@ export default function ProgramsPage() {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-          </div>
-        </div>
-      </section>
-
-
-      <section className="py-20 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <Badge variant="secondary" className="mb-4 text-accent-foreground bg-accent">
-              Lesson Programs
-            </Badge>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-balance">
-              5 Week Lesson Program Tiers
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-4xl mx-auto text-balance leading-relaxed">
-              Let us train you how to train your dog! These programs are perfect for owners who want to be part of every
-              step of the training process, and keep their dog at home through training. We coach you, and you are in
-              charge of your dogs progress!
-            </p>
-            <div className="mt-8 p-6 bg-accent/10 rounded-2xl inline-block">
-              <div className="text-3xl font-bold text-accent">$750</div>
-              <div className="text-lg font-semibold">5 Week Lesson Program</div>
-              <div className="text-sm text-muted-foreground">
-                Each of our Board and Trains is followed by enrollment in the appropriate Level lesson program, at no
-                extra cost.
-              </div>
-            </div>
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-8">
-            {lessonPrograms.map((program, index) => (
-              <Card
-                key={index}
-                className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
-              >
-                <div className="relative h-48 sm:h-56 md:h-64 overflow-hidden">
-                  <Image
-                    src={program.image || "/placeholder.svg"}
-                    alt={`${program.title} - Professional dog training lesson program`}
-                    fill
-                    className="object-cover rounded-t-lg"
-                  />
-                  <div className="absolute inset-0 bg-black/20" />
-                  <div className={`absolute top-4 right-4 ${program.color} text-white p-3 rounded-xl shadow-lg`}>
-                    {program.icon}
-                  </div>
-                  <div className="absolute top-4 left-4 flex items-center space-x-1">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
-                    ))}
-                  </div>
-                </div>
-
-                <CardHeader>
-                  <CardTitle className="text-2xl font-bold">{program.title}</CardTitle>
-                  <p className="text-lg text-accent font-semibold">{program.subtitle}</p>
-                  <p className="text-muted-foreground leading-relaxed">{program.description}</p>
-                </CardHeader>
-
-                <CardContent>
-                  <div className="space-y-3">
-                    {program.features.map((feature, featureIndex) => (
-                      <div key={featureIndex} className="flex items-start space-x-2">
-                        <CheckCircle className="h-4 w-4 text-accent flex-shrink-0 mt-0.5" />
-                        <span className="text-sm">{feature}</span>
-                      </div>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-
-          <div className="text-center mt-12">
-            <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
-              <Link href="/contact">
-                Schedule Your Complimentary Consultation
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      
-      {/* Adventure Programs Section */}
-      <section className="py-20 bg-gradient-to-br from-accent/5 to-primary/5">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <Badge variant="secondary" className="mb-4 text-accent-foreground bg-accent">
-              Adventure Programs
-            </Badge>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-balance">
-              Off-Leash Adventure Training
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-balance leading-relaxed">
-              Take your dog's training to the next level with our specialized adventure programs. Build confidence,
-              strengthen bonds, and enjoy real-world off-leash freedom in safe, controlled environments.
-            </p>
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-            <div className="relative">
-              <Image
-                src="/images/beach-sunset-dog.jpeg"
-                alt="Dog enjoying off-leash freedom on beach at sunset - result of advanced adventure training program"
-                width={600}
-                height={400}
-                className="rounded-2xl shadow-2xl"
-              />
-              <div className="absolute -bottom-6 -right-6 bg-accent text-accent-foreground p-6 rounded-2xl shadow-xl">
-                <div className="text-center">
-                  <div className="text-2xl font-bold">Beach</div>
-                  <div className="text-sm font-medium">Adventures</div>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-2xl md:text-3xl font-bold mb-4">Beach & Water Training</h3>
-              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Experience the ultimate freedom with your dog through our beach adventure training program. Perfect for
-                dogs who have mastered basic obedience and are ready for real-world challenges.
-              </p>
-              <div className="space-y-3 mb-6">
-                {[
-                  "Advanced off-leash recall training",
-                  "Water safety and swimming confidence",
-                  "Distraction-proofing with wildlife and people",
-                  "Emergency response commands",
-                  "Beach etiquette and environmental awareness",
-                ].map((feature, index) => (
-                  <div key={index} className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
-                    <span>{feature}</span>
-                  </div>
-                ))}
-              </div>
-              <Button asChild className="bg-accent hover:bg-accent/90">
-                <Link href="/contact">
-                  Join Beach Adventures
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-            </div>
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="lg:order-2">
-              <Image
-                src="/images/dogs-adventure-rocks.jpeg"
-                alt="Multiple dogs exploring rocky terrain during adventure training program in natural outdoor setting"
-                width={600}
-                height={400}
-                className="rounded-2xl shadow-2xl"
-              />
-            </div>
-
-            <div className="lg:order-1">
-              <h3 className="text-2xl md:text-3xl font-bold mb-4">Hiking & Trail Adventures</h3>
-              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Build your dog's confidence and physical fitness through challenging terrain and natural obstacles. Our
-                hiking adventures combine training with exploration for the ultimate bonding experience.
-              </p>
-              <div className="space-y-3 mb-6">
-                {[
-                  "Trail navigation and terrain confidence",
-                  "Pack behavior and group dynamics",
-                  "Wildlife encounter protocols",
-                  "Physical conditioning and endurance",
-                  "Leave No Trace outdoor ethics",
-                ].map((feature, index) => (
-                  <div key={index} className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
-                    <span>{feature}</span>
-                  </div>
-                ))}
-              </div>
-              <Button asChild className="bg-accent hover:bg-accent/90">
-                <Link href="/contact">
-                  Explore Trail Training
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-            </div>
           </div>
         </div>
       </section>
@@ -763,32 +535,6 @@ export default function ProgramsPage() {
               </Link>
             </Button>
           </div>
-        </div>
-      </section>
-
-      {/* Off-Leash Raise and Train CTA */}
-      <section className="py-20 bg-gradient-to-br from-accent/5 to-primary/5">
-        <div className="container mx-auto px-4">
-          <Card className="max-w-4xl mx-auto border-accent/20 bg-accent/5">
-            <CardContent className="p-8 md:p-12 text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Want the Ultimate Off-Leash Training Experience?</h2>
-              <p className="text-xl text-muted-foreground mb-8 text-balance leading-relaxed">
-                Do you want the ultimate off-leash training experience? Do you wish you could take your dog anywhere and
-                have reliable control with all commands on-leash AND off-leash?
-              </p>
-              <Button asChild size="lg" className="bg-accent hover:bg-accent/90 mb-6 h-auto">
-                <Link href="/off-leash-raise-and-train">
-                  <p className="whitespace-normal w-[200px] md:w-auto">
-                    Learn About Our Off-Leash Raise and Train Program
-                  </p>
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
-              <p className="text-lg font-semibold text-accent">
-                Every dog is a good dog, let us help make your dog a great dog!
-              </p>
-            </CardContent>
-          </Card>
         </div>
       </section>
 

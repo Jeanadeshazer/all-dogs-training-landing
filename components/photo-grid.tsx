@@ -6,7 +6,7 @@ import { ScrollReveal } from "@/components/scroll-reveal"
 export function PhotoGrid() {
   const photos = [
     {
-      src: "/images/red-pitbull-portrait.jpeg",
+      src: "/images/home-page-photo-grid-tall.jpg",
       alt: "Beautiful red and white pit bull sitting in grass with professional training collar",
       className: "col-span-2 row-span-2",
     },

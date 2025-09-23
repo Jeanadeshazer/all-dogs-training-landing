@@ -14,7 +14,7 @@ export function ServicesPreview() {
       image: "/images/puppy-outdoor.jpeg",
       features: ["Basic Commands", "House Training", "Socialization", "Bite Inhibition"],
       icon: <Target className="h-6 w-6" />,
-      duration: "6-8 weeks",
+      duration: "2 weeks for Jumpstart, 12 weeks for Raise and Train",
     },
     {
       title: "Obedience Training",
@@ -55,8 +55,8 @@ export function ServicesPreview() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {services.map((service, index) => (
             <ScrollReveal key={index} delay={index * 150}>
-              <Card className="group hover:shadow-xl transition-all duration-300 border-none shadow-lg overflow-hidden hover:scale-105 h-[590px] md:h-[630px] lg:h-[660px] flex flex-col py-0 pb-6">
-                <div className="relative h-48 overflow-hidden flex-shrink-0">
+              <Card className="group hover:shadow-xl transition-all duration-300 border-none shadow-lg overflow-hidden hover:scale-105 h-auto md:h-[630px] lg:h-[660px] flex flex-col py-0 pb-6">
+                <div className="relative h-90 overflow-hidden flex-shrink-0">
                   <Image
                     src={service.image || "/placeholder.svg"}
                     alt={`${service.title} - Professional dog training program at All Dogs Training Co Houston facility`}

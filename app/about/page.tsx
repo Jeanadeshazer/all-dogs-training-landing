@@ -79,20 +79,17 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
               <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
-                <p>
-                  All Dogs Training Co was founded with a simple mission: to provide professional, effective dog
-                  training services that actually work. We saw too many dog owners frustrated with big box franchises
-                  that offered generic solutions and little ongoing support.
+                <p>                 
+                  All Dogs Training Co. was founded with the simple philosophy of providing lifestyle based training resources
+                  to dogs and their owners. We want to make training simple, and give you and your dog more freedom. Our programs 
+                  are very results oriented and geared to maximum efficiency in the shortest amount of time. Our programs are all 
+                  relationship based and uniquely structured for a total reset between you and your dog. We focus on building a 
+                  strong connection, a healthier relationship, and a calmer state of mind for your dog.
                 </p>
                 <p>
-                  That's why we built something different. Both of our locations in Houston and Austin are privately
-                  owned, founded by, and run by actual dog trainers - not corporate managers who've never worked with a
-                  reactive dog or helped a family through puppy training.
-                </p>
-                <p>
-                  We have decades of unparalleled professional training and coaching experience with pets and their
-                  owners. More importantly, we have countless success stories that prove our methods work for dogs of
-                  all ages, breeds, and behavioral challenges.
+                  With decades of combined experience in sport competition, protection training, competition obedience, tracking, 
+                  behavior modification, and lots and lots of pet dog training... we are centered around clear, simplified, balanced 
+                  training to help you enjoy YOUR dog in YOUR life. All Dogs Training Co. exists to help dogs and their owners. 
                 </p>
               </div>
               <div className="mt-8">
@@ -106,7 +103,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <Image
-                src="/images/group-training.jpeg"
+                src="/images/H-V-cafe.jpg"
                 alt="Professional dog training session with multiple dogs and owners at All Dogs Training Co Houston facility"
                 width={600}
                 height={400}
