@@ -1,10 +1,10 @@
-import { Navigation } from "@/components/navigation"
-import { Footer } from "@/components/footer"
-import { ContactForm } from "@/components/contact-form"
-import { Badge } from "@/components/ui/badge"
-import { Card, CardContent } from "@/components/ui/card"
-import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react"
-import type { Metadata } from "next"
+import { Navigation } from "@/components/navigation";
+import { Footer } from "@/components/footer";
+import { ContactForm } from "@/components/contact-form";
+import { Badge } from "@/components/ui/badge";
+import { Card, CardContent } from "@/components/ui/card";
+import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact Us - All Dogs Training Co | Dog Training Houston TX",
@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     "Contact All Dogs Training Co for professional dog training in Houston and Austin. Schedule your free consultation today. Call (713) 909-7968 Houston or (512) 648-4510 Austin.",
   keywords:
     "contact dog trainer houston, dog training consultation houston, schedule dog training houston, dog trainer phone number houston, dog training contact houston tx",
-}
+};
 
 export default function ContactPage() {
   const contactInfo = [
     {
       icon: <Phone className="h-6 w-6 text-accent" />,
-      title: "Austin Location",
+      title: "Austin Location ",
       details: ["(512) 648-4510", "Available 7 days a week"],
       action: "tel:5126484510",
     },
@@ -34,7 +34,7 @@ export default function ContactPage() {
       details: ["Monday - Saturday", "7:00 AM - 8:00 PM"],
       action: null,
     },
-  ]
+  ];
 
   const serviceAreas = [
     "Houston, TX",
@@ -47,7 +47,7 @@ export default function ContactPage() {
     "Cedar Park, TX",
     "Pflugerville, TX",
     "Leander, TX",
-  ]
+  ];
 
   return (
     <main className="min-h-screen">
@@ -57,14 +57,19 @@ export default function ContactPage() {
       <section className="pt-20 pb-16 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <Badge variant="secondary" className="mb-4 text-accent-foreground bg-accent">
+            <Badge
+              variant="secondary"
+              className="mb-4 text-accent-foreground bg-accent"
+            >
               Contact Us
             </Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">
-              Ready to Transform Your <span className="text-accent">Dog's Behavior?</span>
+              Ready to Transform Your{" "}
+              <span className="text-accent">Dog's Behavior?</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground text-balance leading-relaxed">
-              Schedule your free consultation today and take the first step toward a better relationship with your dog.
+              Schedule your free consultation today and take the first step
+              toward a better relationship with your dog.
             </p>
           </div>
         </div>
@@ -75,12 +80,18 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-6 mb-16">
             {contactInfo.map((info, index) => (
-              <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <Card
+                key={index}
+                className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300"
+              >
                 <CardContent className="p-6 text-center">
                   <div className="flex justify-center mb-4">{info.icon}</div>
                   <h3 className="text-lg font-semibold mb-3">{info.title}</h3>
                   {info.action ? (
-                    <a href={info.action} className="block space-y-1 hover:text-accent transition-colors">
+                    <a
+                      href={info.action}
+                      className="block space-y-1 hover:text-accent transition-colors"
+                    >
                       {info.details.map((detail, detailIndex) => (
                         <div
                           key={detailIndex}
@@ -129,10 +140,13 @@ export default function ContactPage() {
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-2 mb-4">
                     <MessageCircle className="h-6 w-6 text-accent" />
-                    <h3 className="text-xl font-semibold">Need Immediate Help?</h3>
+                    <h3 className="text-xl font-semibold">
+                      Need Immediate Help?
+                    </h3>
                   </div>
                   <p className="text-muted-foreground mb-4">
-                    For urgent behavioral issues or immediate questions, call us directly:
+                    For urgent behavioral issues or immediate questions, call us
+                    directly:
                   </p>
                   <div className="space-y-2">
                     <a
@@ -152,16 +166,22 @@ export default function ContactPage() {
                     <MapPin className="h-6 w-6 text-accent" />
                     <h3 className="text-xl font-semibold">Service Areas</h3>
                   </div>
-                  <p className="text-muted-foreground mb-4">We proudly serve the following areas:</p>
+                  <p className="text-muted-foreground mb-4">
+                    We proudly serve the following areas:
+                  </p>
                   <div className="grid grid-cols-2 gap-2">
                     {serviceAreas.map((area, index) => (
-                      <div key={index} className="text-sm text-muted-foreground">
+                      <div
+                        key={index}
+                        className="text-sm text-muted-foreground"
+                      >
                         • {area}
                       </div>
                     ))}
                   </div>
                   <p className="text-sm text-muted-foreground mt-4">
-                    Don't see your area listed? Contact us - we may still be able to help!
+                    Don't see your area listed? Contact us - we may still be
+                    able to help!
                   </p>
                 </CardContent>
               </Card>
@@ -178,7 +198,8 @@ export default function ContactPage() {
                       <div>
                         <div className="font-medium">Free Consultation</div>
                         <div className="text-sm text-muted-foreground">
-                          We'll assess your dog's needs and discuss training options.
+                          We'll assess your dog's needs and discuss training
+                          options.
                         </div>
                       </div>
                     </div>
@@ -189,7 +210,8 @@ export default function ContactPage() {
                       <div>
                         <div className="font-medium">Custom Plan</div>
                         <div className="text-sm text-muted-foreground">
-                          We'll create a personalized training program for your dog.
+                          We'll create a personalized training program for your
+                          dog.
                         </div>
                       </div>
                     </div>
@@ -214,5 +236,5 @@ export default function ContactPage() {
 
       <Footer />
     </main>
-  )
+  );
 }
