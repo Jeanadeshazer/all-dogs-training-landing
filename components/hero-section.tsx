@@ -38,7 +38,7 @@ export function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-accent/20 backdrop-blur-sm border border-accent/30 rounded-full px-4 py-2 mb-6 animate-fade-in-up">
             <MapPin className="h-4 w-4 text-accent" />
-            <span className="text-sm font-medium">Serving Houston & Austin</span>
+            <span className="text-sm font-medium">Serving Houston, TX & Austin, TX & Atlanta, GA</span>
           </div>
 
           {/* Social Proof */}
@@ -79,17 +79,23 @@ export function HeroSection() {
           {/* Phone Numbers */}
           <div className="flex flex-row sm:flex-col items-center justify-center gap-6 text-white/90 animate-fade-in-up">
             <a
+              href="tel:7139097968"
+              className="flex items-center space-x-2 hover:text-accent transition-colors hover:scale-105 transform duration-200"
+            >
+              <span className="font-semibold">Houston:</span>
+              <span className="text-xl font-bold">(713) 909-7968</span>
+            </a>
+            <a
               href="tel:5126484510"
               className="flex items-center space-x-2 hover:text-accent transition-colors hover:scale-105 transform duration-200"
             >
               <span className="font-semibold">Austin:</span>
               <span className="text-xl font-bold">(512) 648-4510</span>
             </a>
-            <a
-              href="tel:7139097968"
-              className="flex items-center space-x-2 hover:text-accent transition-colors hover:scale-105 transform duration-200"
-            >
-            </a>
+            <div className="flex items-center space-x-2 hover:text-accent transition-colors hover:scale-105 transform duration-200">
+              <span className="font-semibold">Coming Soon to Villa Rica, GA and all surrounding areas:</span>
+              <span className="text-xl font-bold">(512) 884-0749</span>
+            </div>
           </div>
         </div>
       </div>
