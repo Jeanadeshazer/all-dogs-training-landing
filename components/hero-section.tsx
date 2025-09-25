@@ -7,7 +7,7 @@ import { AnimatedCounter } from "@/components/animated-counter"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-30 md:pt-0">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-30 md:pt-25">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
