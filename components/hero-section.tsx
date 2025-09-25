@@ -38,7 +38,7 @@ export function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-accent/20 backdrop-blur-sm border border-accent/30 rounded-full px-4 py-2 mb-6 animate-fade-in-up">
             <MapPin className="h-4 w-4 text-accent" />
-            <span className="text-sm font-medium">Serving Houston & Austin & Atlanta Georgia</span>
+            <span className="text-sm font-medium">Serving Houston & Austin</span>
           </div>
 
           {/* Social Proof */}
