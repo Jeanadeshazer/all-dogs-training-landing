@@ -16,9 +16,9 @@ export default function TransferModal() {
                         />
                     </div>
                     <h2 className="text-4xl font-bold text-accent text-center">The Good Dog Garage</h2>
-                    <p className="whitespace-normal text-2xl text-center">Your one stop shop for all things<span className="text-accent text-2xl font-bold"> DOG</span>!!!</p>  
+                    <p className="whitespace-normal text-2xl text-center">Your one stop shop for all things<br/><span className="text-accent text-2xl font-bold"> DOG</span>!!!</p>  
                     <p className="whitespace-normal text-md text-center">
-                        Home of ALL Dogs Training Co. in Houston, Austin and coming soon... <span className="text-accent font-bold">Villa Rica, GA!</span>
+                        Home of ALL Dogs Training Co. in Houston, Austin and coming soon... <span className="text-accent font-bold">Villa Rica, GA! </span>
                         Serving families in the Atlanta Area and Peachtree City, Fayetteville and all surrounding areas!
                     </p>
                     <p className="whitespace-pre-line text-md text-center">
@@ -29,19 +29,25 @@ export default function TransferModal() {
                             - Board and Trains -
                         </p>
                         <p className="text-sm">
-                            - Behavior Solutions -
-                        </p>
-                        <p className="text-sm">
-                            - Day School -
-                        </p>
-                        <p className="text-sm">
-                            - Boarding -
+                            ...etc
                         </p>
                     </div>
                     <p className="whitespace-pre-line text-md text-center">
                         And <span className="text-accent font-bold">COMING SOON</span> To all locations...
                     </p>
-                    <p className="text-center"> THE <span className="text-accent font-bold">CLEAN SLATE PROGRAM</span> by Fabian Robinson and Gina Bishop.</p>
+                    <p className="text-center pb-2"> THE <span className="text-accent font-bold">CLEAN SLATE PROGRAM</span> developed by world renowned dog trainers Fabian Robinson and Gina Bishop.</p>
+                    <p className="text-center"> We also offer</p>
+                    <div className="flex flex-col items-center w-full">
+                        <p className='text-sm'>
+                            - Virtual Training Solutions for Owners -
+                        </p>
+                        <p className='text-sm'>
+                            - Virtual And Hands-on Courses and Certification Program -
+                        </p>
+                        <p className='text-sm'>
+                            - Consulting For Aspiring Trainers -
+                        </p>
+                    </div>
                     <div className="flex justify-center gap-2">
                             <Link href="https://www.alldogstraininghouston.com/">
                                 <Button className="bg-accent text-white px-2">
