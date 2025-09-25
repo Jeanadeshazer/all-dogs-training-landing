@@ -16,13 +16,29 @@ export default function TransferModal() {
                         />
                     </div>
                     <h2 className="text-4xl font-bold text-accent text-center">The Good Dog Garage</h2>
-                    <p className="whitespace-normal text-2xl text-center">Your one stop shop for<span className="text-accent text-2xl font-bold"> ALL THINGS DOG</span>!!!</p>  
+                    <p className="whitespace-normal text-2xl text-center">Your one stop shop for all things<span className="text-accent text-2xl font-bold"> DOG</span>!!!</p>  
                     <p className="whitespace-normal text-md text-center">
                         Home of ALL Dogs Training Co. in Houston, Austin and coming soon... <span className="text-accent font-bold">Villa Rica, GA!</span>
                         Serving families in the Atlanta Area and Peachtree City, Fayetteville and all surrounding areas!
                     </p>
                     <p className="whitespace-pre-line text-md text-center">
                         We offer our own Custom Training Programs:
+                    </p>
+                    <div className="flex flex-col items-center space-y-2">
+                        <p className="text-sm">
+                            - Board and Trains -
+                        </p>
+                        <p className="text-sm">
+                            - Behavior Solutions -
+                        </p>
+                        <p className="text-sm">
+                            - Day School -
+                        </p>
+                        <p className="text-sm">
+                            - Boarding -
+                        </p>
+                    </div>
+                    <p className="whitespace-pre-line text-md text-center">
                         And <span className="text-accent font-bold">COMING SOON</span> To all locations...
                     </p>
                     <p className="text-center"> THE <span className="text-accent font-bold">CLEAN SLATE PROGRAM</span> by Fabian Robinson and Gina Bishop.</p>
