@@ -104,13 +104,7 @@ export function HeroSection() {
               <span className="font-semibold">Austin:</span>
               <span className="text-xl font-bold">(512) 648-4510</span>
             </a>
-            <a
-              href="tel:5126484510"
-              className="flex items-center space-x-2 hover:text-accent transition-colors hover:scale-105 transform duration-200"
-            >
-              <span className="font-semibold">Austin:</span>
-              <span className="text-xl font-bold">(512) 648-4510</span>
-            </a>
+
             <div className="flex items-center space-x-2 hover:text-accent transition-colors hover:scale-105 transform duration-200">
               <span className="font-semibold">Coming Soon to Villa Rica, GA and all surrounding areas:</span>
               <span className="text-xl font-bold">(512) 884-0749</span>
