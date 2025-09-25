@@ -89,13 +89,7 @@ export function HeroSection() {
               href="tel:7139097968"
               className="flex items-center space-x-2 hover:text-accent transition-colors hover:scale-105 transform duration-200"
             >
-              <span className="font-semibold">Houston:</span>
-              <span className="text-xl font-bold">(713) 909-7968</span>
             </a>
-            <div className="flex justify-center items-center space-x-2">
-                <p className="font-semibold">Coming Soon: Villa Rica, GA and all surrounding areas</p>
-                <span className="text-xl font-bold">(512) 884-0749</span>
-            </div>
           </div>
         </div>
       </div>
