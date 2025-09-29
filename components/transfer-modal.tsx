@@ -14,6 +14,12 @@ export default function TransferModal() {
                             height={120}
                             width={120}
                         />
+                        <Image
+                            src='/images/thegooddoggarageblack.png'
+                            alt='Good Dog Garage Black'
+                            height={120}
+                            width={200}
+                        />
                     </div>
                     <h2 className="text-4xl font-bold text-accent text-center">The Good Dog Garage</h2>
                     <p className="whitespace-normal text-2xl text-center">Your one stop shop for all things<br/><span className="text-accent text-2xl font-bold"> DOG</span>!!!</p>  
@@ -29,13 +35,20 @@ export default function TransferModal() {
                             - Board and Trains -
                         </p>
                         <p className="text-sm">
-                            ...etc
+                            - Behavior Solutions -
+                        </p>
+                        <p className="text-sm">
+                            - Day School -
+                        </p>
+                        <p className="text-sm">
+                            - Boarding -
                         </p>
                     </div>
                     <p className="whitespace-pre-line text-md text-center">
                         And <span className="text-accent font-bold">COMING SOON</span> To all locations...
                     </p>
-                    <p className="text-center pb-2"> THE <span className="text-accent font-bold">CLEAN SLATE PROGRAM</span> developed by world renowned dog trainers Fabian Robinson and Gina Bishop.</p>
+                    <p className="text-center pb-2"> THE <span className="text-accent font-bold">CLEAN SLATE PROGRAM</span></p>
+                    <p className="text-center pb-2"> Developed by world renowned dog trainers Fabian Robinson and Gina Bishop.</p>
                     <p className="text-center"> We also offer</p>
                     <div className="flex flex-col items-center w-full">
                         <p className='text-sm'>
