@@ -110,7 +110,6 @@ export default function ProgramsPage() {
 
   return (
     <main className="min-h-screen">
-      <Navigation />
 
       {/* Hero Section */}
       <section className="pt-20 pb-16 bg-muted/30">

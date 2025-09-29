@@ -9,11 +9,11 @@ import { Award, Users, Heart, Target, ArrowRight, CheckCircle } from "lucide-rea
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "About Us - All Dogs Training Co | Professional Dog Trainers Houston TX",
+  title: "About Us - All Dogs Training Co | Professional Dog Trainers Atlanta GA",
   description:
-    "Learn about All Dogs Training Co's experienced dog trainers in Houston and Austin. Locally owned with decades of professional training experience and proven results.",
+    "Learn about All Dogs Training Co's experienced dog trainers in Houston and Austin and coming soon Atlanta. Locally owned with decades of professional training experience and proven results.",
   keywords:
-    "about dog trainer houston, professional dog trainer houston tx, experienced dog training houston, local dog trainer houston, dog training company houston",
+    "about dog trainer atlanta, professional dog trainer atlanta ga, experienced dog training atlanta, local dog trainer atlanta, dog training company atlanta",
 }
 
 export default function AboutPage() {
@@ -52,7 +52,6 @@ export default function AboutPage() {
 
   return (
     <main className="min-h-screen">
-      <Navigation />
 
       {/* Hero Section */}
       <section className="pt-20 pb-16 bg-muted/30">

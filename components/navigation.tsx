@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Phone } from "lucide-react"
 import { cn } from "@/lib/utils"
+import ComingSoonBanner from "./coming-soon-banner"
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -90,7 +91,7 @@ export function Navigation() {
             <div className="text-sm space-y-1">
               <div className={cn("flex items-center space-x-1", getPhoneColor())}>
                 <Phone className="h-4 w-4" />
-                <span>Houston: (713) 909-7968</span>
+                <span>Atlanta: (512) 884-0749</span>
               </div>
             </div>
             <Button asChild className="bg-accent hover:bg-accent/70 text-accent-foreground">
@@ -126,11 +127,7 @@ export function Navigation() {
               <div className="pt-4 border-t border-gray-200 space-y-2">
                 <div className="flex items-center space-x-1 text-sm text-gray-600">
                   <Phone className="h-4 w-4" />
-                  <span>Austin: (512) 648-4510</span>
-                </div>
-                <div className="flex items-center space-x-1 text-sm text-gray-600">
-                  <Phone className="h-4 w-4" />
-                  <span>Houston: (713) 909-7968</span>
+                  <span>Atlanta: (512) 884-0749</span>
                 </div>
                 <Button asChild className="w-full bg-accent hover:bg-accent/70 text-white mt-4">
                   <Link href="/contact">Get Started</Link>
@@ -140,6 +137,7 @@ export function Navigation() {
           </div>
         )}
       </div>
+      <ComingSoonBanner />
     </nav>
   )
 }

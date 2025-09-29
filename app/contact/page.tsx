@@ -18,9 +18,9 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: <Phone className="h-6 w-6 text-accent" />,
-      title: "Houston Location ",
-      details: ["(713) 909-7968", "Available 7 days a week"],
-      action: "tel:7139097968",
+      title: "Atlanta Location ",
+      details: ["(512) 884-0749", "Available 6 days a week"],
+      action: "tel:5128840749",
     },
     {
       icon: <Mail className="h-6 w-6 text-accent" />,
@@ -51,7 +51,6 @@ export default function ContactPage() {
 
   return (
     <main className="min-h-screen">
-      <Navigation />
 
       {/* Hero Section */}
       <section className="pt-20 pb-16 bg-muted/30">
@@ -176,7 +175,7 @@ export default function ContactPage() {
                       href="tel:7139097968"
                       className="block p-3 bg-accent text-accent-foreground rounded-lg text-center font-semibold hover:bg-accent/90 transition-colors"
                     >
-                      Houston: (713) 909-7968
+                      Atlanta: (512) 884-0749
                     </a>
                   </div>
                 </CardContent>

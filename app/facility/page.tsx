@@ -5,11 +5,11 @@ import { ArrowLeft, MapPin, Clock, Users, Award } from "lucide-react"
 import { ScrollReveal } from "@/components/scroll-reveal"
 
 export const metadata = {
-  title: "Our Training Facility | All Dogs Training Co - Houston & Austin",
+  title: "Our Training Facility | All Dogs Training Co - Houston & Austin and coming soon Atlanta",
   description:
     "Tour our state-of-the-art dog training facility in Houston. Professional indoor and outdoor training areas designed for effective dog training programs.",
   keywords:
-    "dog training facility Houston, dog training center Houston, professional dog training facility, Houston dog training location",
+    "dog training facility atlanta, dog training center atlanta, professional dog training facility, Atlanta dog training location",
 }
 
 export default function FacilityPage() {
