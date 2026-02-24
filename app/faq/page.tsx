@@ -69,8 +69,7 @@ export default function FAQPage() {
         {
           question: "Where are you located?",
           answer:
-            "Our Texas training locations are in Austin and Houston. We serve all surrounding areas as well.\n\nOur Georgia training locations are in Villa Rica and Fayetteville. We serve all surrounding areas including Atlanta metro area.",
-        },
+          "Our training locations are in Houston and Austin, Texas. We serve all surrounding areas including Cypress, Katy, The Woodlands, Cedar Park, Round Rock, and more."        },
         {
           question: "What should I bring with my dog?",
           answer: 

@@ -131,11 +131,22 @@ export default function ProgramsPage() {
             <div className="bg-accent/10 rounded-2xl p-6 mb-8">
               <h3 className="text-xl font-bold mb-4 text-accent">Need Help Now?</h3>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <div className="flex items-center space-x-2">
-                  <Phone className="h-5 w-5 text-accent" />
-                  <span className="font-semibold">Houston:</span>
-                  <a href="tel:7139097968" className="text-lg font-bold text-accent hover:text-accent/80">
-                    (713) 909-7968
+                <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                  <a
+                    href="tel:7139097968"
+                    className="flex items-center justify-center space-x-2 text-accent hover:text-accent/80 transition-colors"
+                  >
+                    <Phone className="h-5 w-5" />
+                    <span className="font-semibold">Houston:</span>
+                    <span className="text-lg font-bold">(713) 909-7968</span>
+                  </a>
+                  <a
+                    href="tel:5126484510"
+                    className="flex items-center justify-center space-x-2 text-accent hover:text-accent/80 transition-colors"
+                  >
+                    <Phone className="h-5 w-5" />
+                    <span className="font-semibold">Austin:</span>
+                    <span className="text-lg font-bold">(512) 648-4510</span>
                   </a>
                 </div>
               </div>

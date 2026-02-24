@@ -81,7 +81,7 @@ export function Footer() {
                   href="mailto:info@alldogstrainingco.com"
                   className="text-white hover:text-blue-400 transition-colors"
                 >
-                  infohtx@alldogstrainingco.com
+                  info@alldogstrainingco.com
                 </a>
               </li>
             </ul>
@@ -109,10 +109,10 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
-          <p className="text-white/60">
-            © 2024 All Dogs Training Co. All rights reserved. |
-            <span className="text-blue-400 font-medium"> Best Dog Training Houston TX</span>
-          </p>
+        <p className="text-white/60">
+          © {new Date().getFullYear()} All Dogs Training Co. All rights reserved. |
+          <span className="text-blue-400 font-medium"> Professional Dog Training in Houston & Austin, Texas</span>
+        </p>
         </div>
       </div>
     </footer>

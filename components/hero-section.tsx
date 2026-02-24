@@ -41,7 +41,7 @@ export function HeroSection() {
           <div className="inline-flex items-center space-x-2 bg-accent/20 backdrop-blur-sm border border-accent/30 rounded-full px-4 py-2 mb-6 animate-fade-in-up">
             <MapPin className="h-4 w-4 text-accent" />
             <span className="text-sm font-medium">
-              Serving Houston, TX & Austin, TX & Atlanta, GA
+              Serving Houston & Austin, Texas
             </span>
           </div>
 
@@ -105,7 +105,7 @@ export function HeroSection() {
               <span className="text-xl font-bold">(512) 648-4510</span>
             </a>
 
-            <div className="flex items-center space-x-2 hover:text-accent transition-colors hover:scale-105 transform duration-200">
+            <div className="hidden flex items-center space-x-2 hover:text-accent transition-colors hover:scale-105 transform duration-200">
               <span className="font-semibold">Coming Soon to Villa Rica, GA and all surrounding areas:</span>
               <span className="text-xl font-bold">(512) 884-0749</span>
             </div>

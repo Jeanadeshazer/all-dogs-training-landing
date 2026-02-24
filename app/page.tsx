@@ -10,11 +10,10 @@ import TrainerTabsSection from '@/components/trainer-tabs-section'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-      title: "All Dogs Training Co. - Houston Texas Homepage",
-      description: "This is the homepage for All Dogs Training Co., Houston TX, where you'll find everything you need about dog training straight from professional dog trainers.",
-      keywords: "dog training houston, dog trainer houston, dog training houston texas, best dog trainer houston, best dog training houston, best dog training houston tx, train dog houston, dog training service houston, puppy training houston, obedience training houston",
+  title: "All Dogs Training Co - Professional Dog Training in Houston & Austin, Texas",
+  description: "Professional dog training in Houston and Austin, Texas. Expert trainers offering obedience training, behavioral modification, and puppy training.",
+  keywords: "dog training houston, dog training austin, dog trainer texas, best dog training houston, best dog training austin, puppy training texas",
 }
-
 
 export default function HomePage() {
   return (
