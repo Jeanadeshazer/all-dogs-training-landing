@@ -12,7 +12,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: "All Dogs Training Co - Professional Dog Training in Houston & Austin, Texas",
   description: "Professional dog training in Houston and Austin, Texas. Expert trainers offering obedience training, behavioral modification, and puppy training.",
-  keywords: "dog training houston, dog training austin, dog trainer texas, best dog training houston, best dog training austin, puppy training texas",
+  keywords: "dog training houston, dog training austin, dog trainer texas, best dog training houston, best dog training austin, puppy training texas, obedience training houston, obedience training austin, behavioral modification houston, behavioral modification austin",
 }
 
 export default function HomePage() {
