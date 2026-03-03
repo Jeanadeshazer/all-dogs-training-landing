@@ -577,6 +577,14 @@ export default function ProgramsPage() {
                   <span className="font-semibold">Houston:</span>
                   <span className="text-lg font-bold">(713) 909-7968</span>
                 </a>
+                <a
+                  href="tel:5126484510"
+                  className="flex items-center justify-center space-x-2 text-accent hover:text-accent/80 transition-colors"
+                >
+                  <Phone className="h-5 w-5" />
+                  <span className="font-semibold">Austin:</span>
+                  <span className="text-lg font-bold">(512) 648-4510</span>
+                </a>
               </div>
             </CardContent>
           </Card>

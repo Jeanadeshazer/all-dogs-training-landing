@@ -58,9 +58,10 @@ export function Navigation() {
         isScrolled ? "bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-200" : "bg-transparent",
       )}
     >
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16 lg:h-20">
-          {/* Logo */}
+    <div className="container mx-auto px-4">
+      <div className="flex items-center h-16 lg:h-20">
+        {/* Logo - Fixed Width */}
+        <div className="w-80">
           <Link href="/" className="flex items-center space-x-2">
             <Image
               src="/images/logo.png"
@@ -71,43 +72,52 @@ export function Navigation() {
               priority
             />
           </Link>
+        </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
+        {/* Desktop Navigation - Centered */}
+        <div className="hidden lg:flex items-center justify-center flex-1">
+          <div className="flex items-center space-x-8">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className={cn("hover:text-accent transition-colors duration-200 font-medium", getTextColor())}
+                className={cn("hover:text-accent transition-colors duration-200 font-medium whitespace-nowrap", getTextColor())}
               >
                 {item.label}
               </Link>
             ))}
           </div>
+        </div>
 
-          {/* Phone Numbers & CTA */}
-          <div className="hidden lg:flex items-center space-x-4">
-            <div className="text-sm space-y-1">
-              <div className={cn("flex items-center space-x-1", getPhoneColor())}>
-                <Phone className="h-4 w-4" />
-                <span>Houston: (713) 909-7968</span>
-              </div>
-            </div>
-            <Button asChild className="bg-accent hover:bg-accent/70 text-accent-foreground">
-              <Link href="/contact">Get Started</Link>
-            </Button>
+        {/* Phone Numbers & CTA - Fixed Width to Match Logo */}
+        <div className="hidden lg:flex items-center justify-end w-80 space-x-4">
+          <div className="text-sm flex flex-col items-end">
+            <a href="tel:7139097968" className={cn("flex items-center space-x-1 hover:text-accent transition-colors", getPhoneColor())}>
+              <Phone className="h-3 w-3" />
+              <span>Houston: (713) 909-7968</span>
+            </a>
+            <a href="tel:5126484510" className={cn("flex items-center space-x-1 hover:text-accent transition-colors", getPhoneColor())}>
+              <Phone className="h-3 w-3" />
+              <span>Austin: (512) 648-4510</span>
+            </a>
           </div>
+          <Button asChild className="bg-accent hover:bg-accent/70 text-accent-foreground">
+            <Link href="/contact">Get Started</Link>
+          </Button>
+        </div>
 
-          {/* Mobile Menu Button */}
+        {/* Mobile Menu Button */}
+        <div className="lg:hidden ml-auto">
           <Button
             variant="ghost"
             size="icon"
-            className={cn("lg:hidden", getMobileButtonColor())}
+            className={cn(getMobileButtonColor())}
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </Button>
         </div>
+      </div>
 
         {/* Mobile Menu */}
         {isOpen && (

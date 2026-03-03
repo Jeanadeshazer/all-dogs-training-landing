@@ -16,12 +16,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   const contactInfo = [
-    {
-      icon: <Phone className="h-6 w-6 text-accent" />,
-      title: "Houston",
-      details: ["(713) 909-7968", "Available 7 days a week"],
-      action: "tel:7139097968",
-    },
+
     {
       icon: <Mail className="h-6 w-6 text-accent" />,
       title: "Email Us",
@@ -78,6 +73,32 @@ export default function ContactPage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            {/* Phone Numbers Card */}
+            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <CardContent className="p-6 text-center">
+                <div className="flex justify-center mb-4">
+                  <Phone className="h-6 w-6 text-accent" />
+                </div>
+                <h3 className="text-lg font-semibold mb-3">Call Us</h3>
+                <div className="space-y-3">
+                  <a
+                    href="tel:7139097968"
+                    className="block hover:text-accent transition-colors"
+                  >
+                    <span className="text-muted-foreground">Houston:</span>{" "}
+                    <span className="font-semibold text-lg">(713) 909-7968</span>
+                  </a>
+                  <a
+                    href="tel:5126484510"
+                    className="block hover:text-accent transition-colors"
+                  >
+                    <span className="text-muted-foreground">Austin:</span>{" "}
+                    <span className="font-semibold text-lg">(512) 648-4510</span>
+                  </a>
+                </div>
+                <p className="text-sm text-muted-foreground mt-2">Available 7 days a week</p>
+              </CardContent>
+            </Card>
             {contactInfo.map((info, index) => (
               <Card
                 key={index}
