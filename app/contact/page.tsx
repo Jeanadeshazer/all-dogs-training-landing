@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 import type { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Contact Us - All Dogs Training Co | Dog Training Houston TX",
@@ -153,7 +154,7 @@ export default function ContactPage() {
     title="Houston Site Submit Form"
         >
 </iframe>
-<script src="https://link.msgsndr.com/js/form_embed.js"></script>
+<Script src="https://link.msgsndr.com/js/form_embed.js" strategy="lazyOnload" />
             </div>
 
             {/* Additional Info */}
